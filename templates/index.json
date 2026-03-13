@@ -1,1 +1,260 @@
-{"sections":{"custom_liquid_MGhKd7":{"type":"custom-liquid","name":"t:sections.custom-liquid.presets.name","settings":{"display_id":false,"visibility":"always-display","custom_liquid":"<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/Group_502_3.png?v=1747952501\" \n    alt=\"CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    \n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0 2.5vw; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      TEST HEADLINE\n    <\/h2>\n  \n    <a href=\"https:\/\/cawoofficial.com\/collections\/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        VOIR LES SHORTS ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"custom_liquid_FE7bW7":{"type":"custom-liquid","disabled":true,"name":"CAN25 Custom Liquid","settings":{"display_id":false,"visibility":"always-display","custom_liquid":"<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/full_red.png?v=1766499091\" \n    alt=\"Rashguard Édition CAN 2025\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    <h2 style=\"font-size: 4.6vw; margin: 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      ÉDITION LIMITÉE\n    <\/h2>\n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      RASHGUARD CAN 2025\n    <\/h2>\n\n    <p style=\"\n      font-size: 2.2vw;\n      margin: 0 0 2.5vw;\n      color: white;\n      font-family: 'Monument Extended', sans-serif;\n      font-weight: 900;\n    \">\n      QUANTITÉS LIMITÉES • 50 PCS\n    <\/p>\n  \n    <a href=\"https:\/\/cawoofficial.com\/products\/rashguard-edition-can\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        ACCÉDER ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"featured_collection_AjqKXK":{"type":"featured-collection","name":"t:sections.featured-collection.presets.name","settings":{"display_id":false,"visibility":"always-display","title":"","title_highlight_color":"#6d388b","heading_size":"h2","description":"","show_description":false,"description_style":"body","color_scheme":"background-1","collection":"shop-all","products_to_show":8,"stretch_cards":true,"show_view_all":true,"view_all_style":"solid","cards_color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"badges":"regular","show_vendor":false,"show_rating":false,"enable_quick_add":false,"swatches_option_name":"","swatches_position":"top","swatches_desktop_size":36,"swatches_mobile_size":24,"type":"slide","autoplay":true,"autoplay_speed":3,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":3,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"2","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff"}},"section_divider_LJTd6t":{"type":"section-divider","name":"Section divider","settings":{"visibility":"always-display","shape":"diagonal_1","flip_horizontal":true,"flip_vertical":false,"shape_color":"accent-1","custom_shape_color":"#dd1d1d","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}},"section_divider_F7KY8j":{"type":"section-divider","name":"Section divider","settings":{"visibility":"always-display","shape":"diagonal_1","flip_horizontal":false,"flip_vertical":true,"shape_color":"accent-1","custom_shape_color":"#dd1d1d","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":24}},"slideshow_hero_NxJBTh":{"type":"slideshow-hero","blocks":{"slide_iTiXht":{"type":"slide","settings":{"desktop_bg_image":"shopify:\/\/shop_images\/Group_505_2.png","desktop_overlay_color":"#000000","desktop_overlay_opacity":0,"mobile_overlay_color":"#000000","mobile_overlay_opacity":0,"display_sound_btn":false,"sound_btn_color_scheme":"inverse","heading_prefix":"","heading":"","title_highlight_color":"#6d388b","heading_size":"h1","heading_suffix":"","heading_prefix_size":"h4","text":"","button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false,"color_scheme":"background-1","full_page_width":false,"content_max_width":"unlimited","content_pixels_max_width":500,"content_percentage_max_width":50,"content_vertical_position":"center","content_horizontal_position":"center","content_text_alignment":"center","mobile_content_vertical_position":"center","mobile_content_text_alignment":"center","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}}},"block_order":["slide_iTiXht"],"disabled":true,"name":"Slideshow hero","settings":{"visibility":"always-display","min_desktop_height_type":"pixels","desktop_pixels_height":600,"min_mobile_height_type":"pixels","mobile_pixels_height":400,"transparent_header":false,"transparent_header_text_color":"text","transparent_header_highlighted_link_color":"background-1","transparent_header_hover_link_color":"accent-1","transparent_header_logo":"main","hide_announcement_bars":false,"slider_type":"loop","drag":false,"autoplay":false,"autoplay_speed":10,"enable_dots":true,"dots_color_scheme":"background-1","padding_top":50,"padding_bottom":50}},"image_with_text_EPBYGn":{"type":"image-with-text","blocks":{"heading_gkDgGp":{"type":"heading","settings":{"title":"Drop Édition Limitée : Rashguard “JJB SI Y’A HEJA”","title_highlight_color":"#6d388b","heading_size":"h1"}},"text_8HWVzR":{"type":"text","settings":{"text":"<p>Découvrez notre rashguard exclusif:<br\/>✔️ Tissu extensible 4D & respirant<br\/>✔️ Confort & maintien en combat<br\/>✔️ Design floral unique + “JJB SI Y’A HEJA”<br\/>⚡ <strong>Seulement 50 pièces disponibles – jamais reproduites.<\/strong><\/p>","text_style":"body"}},"button_aYEjAY":{"type":"button","settings":{"button_label":"Commande maintenant","button_link":"shopify:\/\/products\/rashguard-jjb-si-ya-heja"}}},"block_order":["heading_gkDgGp","text_8HWVzR","button_aYEjAY"],"disabled":true,"name":"t:sections.image-with-text.presets.name","settings":{"display_id":false,"visibility":"always-display","image":"shopify:\/\/shop_images\/4b1c25_2.png","video_autoplay":true,"video_loop":true,"height":"adapt","color_scheme":"background-1","section_color_scheme":"background-1","full_desktop_width":false,"content_layout":"no-overlap","desktop_media_width":50,"layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","mobile_full_media_width":false,"mobile_direction":"normal","mobile_image_quanlity":"2","mobile_content_alignment":"left","mobile_padding_top":16,"mobile_padding_bottom":16,"desktop_padding_top":36,"desktop_padding_bottom":36,"custom_colors_background":"#2e2a39","custom_gradient_background":"","custom_colors_text":"#ffffff","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d","custom_section_colors_background":"#ffffff","custom_section_gradient_background":""}}},"order":["custom_liquid_MGhKd7","custom_liquid_FE7bW7","featured_collection_AjqKXK","section_divider_LJTd6t","section_divider_F7KY8j","slideshow_hero_NxJBTh","image_with_text_EPBYGn"]}
+{
+  "sections": {
+    "custom_liquid_MGhKd7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/Group_502_3.png?v=1747952501\" \n    alt=\"CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    \n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0 2.5vw; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      Découvrez les shorts CAWO\n    <\/h2>\n  \n    <a href=\"https:\/\/cawoofficial.com\/collections\/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        VOIR LES SHORTS ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_FE7bW7": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "CAN25 Custom Liquid",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/full_red.png?v=1766499091\" \n    alt=\"Rashguard Édition CAN 2025\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    <h2 style=\"font-size: 4.6vw; margin: 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      ÉDITION LIMITÉE\n    <\/h2>\n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      RASHGUARD CAN 2025\n    <\/h2>\n\n    <p style=\"\n      font-size: 2.2vw;\n      margin: 0 0 2.5vw;\n      color: white;\n      font-family: 'Monument Extended', sans-serif;\n      font-weight: 900;\n    \">\n      QUANTITÉS LIMITÉES • 50 PCS\n    <\/p>\n  \n    <a href=\"https:\/\/cawoofficial.com\/products\/rashguard-edition-can\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        ACCÉDER ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_AjqKXK": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "shop-all",
+        "products_to_show": 8,
+        "stretch_cards": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "",
+        "swatches_position": "top",
+        "swatches_desktop_size": 36,
+        "swatches_mobile_size": 24,
+        "type": "slide",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "section_divider_LJTd6t": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_F7KY8j": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "diagonal_1",
+        "flip_horizontal": false,
+        "flip_vertical": true,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "slideshow_hero_NxJBTh": {
+      "type": "slideshow-hero",
+      "blocks": {
+        "slide_iTiXht": {
+          "type": "slide",
+          "settings": {
+            "desktop_bg_image": "shopify:\/\/shop_images\/Group_505_2.png",
+            "desktop_overlay_color": "#000000",
+            "desktop_overlay_opacity": 0,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 0,
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "heading_prefix": "",
+            "heading": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "heading_suffix": "",
+            "heading_prefix_size": "h4",
+            "text": "",
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "color_scheme": "background-1",
+            "full_page_width": false,
+            "content_max_width": "unlimited",
+            "content_pixels_max_width": 500,
+            "content_percentage_max_width": 50,
+            "content_vertical_position": "center",
+            "content_horizontal_position": "center",
+            "content_text_alignment": "center",
+            "mobile_content_vertical_position": "center",
+            "mobile_content_text_alignment": "center",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": ["slide_iTiXht"],
+      "disabled": true,
+      "name": "Slideshow hero",
+      "settings": {
+        "visibility": "always-display",
+        "min_desktop_height_type": "pixels",
+        "desktop_pixels_height": 600,
+        "min_mobile_height_type": "pixels",
+        "mobile_pixels_height": 400,
+        "transparent_header": false,
+        "transparent_header_text_color": "text",
+        "transparent_header_highlighted_link_color": "background-1",
+        "transparent_header_hover_link_color": "accent-1",
+        "transparent_header_logo": "main",
+        "hide_announcement_bars": false,
+        "slider_type": "loop",
+        "drag": false,
+        "autoplay": false,
+        "autoplay_speed": 10,
+        "enable_dots": true,
+        "dots_color_scheme": "background-1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "image_with_text_EPBYGn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gkDgGp": {
+          "type": "heading",
+          "settings": {
+            "title": "Drop Édition Limitée : Rashguard “JJB SI Y’A HEJA”",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_8HWVzR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez notre rashguard exclusif:<br\/>✔️ Tissu extensible 4D & respirant<br\/>✔️ Confort & maintien en combat<br\/>✔️ Design floral unique + “JJB SI Y’A HEJA”<br\/>⚡ <strong>Seulement 50 pièces disponibles – jamais reproduites.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_aYEjAY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Commande maintenant",
+            "button_link": "shopify:\/\/products\/rashguard-jjb-si-ya-heja"
+          }
+        }
+      },
+      "block_order": ["heading_gkDgGp", "text_8HWVzR", "button_aYEjAY"],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify:\/\/shop_images\/4b1c25_2.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_MGhKd7",
+    "custom_liquid_FE7bW7",
+    "featured_collection_AjqKXK",
+    "section_divider_LJTd6t",
+    "section_divider_F7KY8j",
+    "slideshow_hero_NxJBTh",
+    "image_with_text_EPBYGn"
+  ]
+}
