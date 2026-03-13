@@ -15,7 +15,7 @@
       "settings": {
         "show_on_desktop": false,
         "show_title": false,
-        "title": "COLLECTION SHORTS",
+        "title": "",
         "heading_size": "h2",
         "collection": "shorts",
         "products_to_show": 16,
