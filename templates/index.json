@@ -251,10 +251,10 @@
       "type": "horizontal-products",
       "name": "Horizontal Products",
       "settings": {
-        "title": "Featured Products",
-        "heading_size": "h2",
+        "title": "",
+        "heading_size": "h3",
         "collection": "shop-all",
-        "products_to_show": 12,
+        "products_to_show": 16,
         "show_badge_numbers": true,
         "show_bestseller_badge": true,
         "show_rating": true,
@@ -262,8 +262,8 @@
         "badge_color": "#dd1d1d",
         "custom_colors_background": "#ffffff",
         "custom_colors_text": "#000000",
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     }
   },
