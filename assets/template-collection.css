@@ -83,11 +83,11 @@
 
 /* Collection title - bold uppercase sport aesthetic */
 .collection__title .title {
-  font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 900;
+  font-family: 'Bebas Neue', Impact, 'Arial Black', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1.1;
+  letter-spacing: 0.06em;
+  line-height: 1.05;
 }
 
 /* Grid spacing */
@@ -162,12 +162,12 @@
 
 /* Product title — clean sport typography */
 .collection .card__heading {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 0.82rem;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  text-transform: none;
+  font-family: 'Bebas Neue', Impact, 'Arial Black', sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .collection .card__heading.h5 {
@@ -185,10 +185,10 @@
 
 /* Price — sleek minimal */
 .collection .price {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.01em;
+  font-family: 'Bebas Neue', Impact, 'Arial Black', sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
   color: #111;
 }
 
@@ -205,9 +205,9 @@
 
 /* Badge — small, sharp, uppercase */
 .collection .badge {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
-  font-size: 0.65rem;
+  font-family: 'Bebas Neue', Impact, 'Arial Black', sans-serif;
+  font-weight: 400;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 0.25rem 0.55rem;
@@ -227,8 +227,8 @@
 /* Quick add — sport button style */
 .collection .quick-add .button,
 .collection .quick-add__submit {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Bebas Neue', Impact, 'Arial Black', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-size: 0.72rem;
