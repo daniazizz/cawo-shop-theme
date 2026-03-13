@@ -1,1 +1,958 @@
-{"sections":{"main":{"type":"main-product","blocks":{"trustoo_io_reviews_star_rating_widget_x39UjP":{"type":"shopify:\/\/apps\/trustwill-trustoo\/blocks\/star-rating-widget\/c8f15077-6475-4e86-ad06-b66038d5ba2c","settings":{"star_size":20,"font_size":16,"text_color":"#585858","block_aligment":"left","margin_top":10,"margin_bottom":0}},"title":{"type":"title","settings":{"text_size":"h1","title_alignment":"left","uppercase_title":true,"margin_top":0,"margin_bottom":0}},"custom_liquid_fkAi8i":{"type":"custom_liquid","settings":{"custom_liquid":"<p class=\"text-md text-gray-600\">Couverture Optimale pour Votre Awra<\/p>"}},"inventory_RQdyL3":{"type":"inventory","settings":{"text_style":"body","inventory_threshold":100,"show_inventory_quantity":false,"margin_top":6,"margin_bottom":0}},"sizing_chart_K9AAbd":{"type":"sizing_chart","settings":{"test_mode":false,"append":"none","button_label":"Guide des tailles","button_icon":"straighten","button_filled_icon":false,"text_size":17,"button_alignment":"start","button_underline":false,"headline":"Guide des tailles","heading_size":"h3","close_button_style":"minimalistic","color_scheme":"background-1","table_header_content":"Size, Chest, Length, Shoulder","table_header_color_scheme":"inverse","table_content":"","caption_text":"","caption_size":"1.45rem","caption_color":"#121212","caption_alignment":"left","top_image":"shopify:\/\/shop_images\/SIZE_CHART_9.png","margin_top":15,"margin_bottom":15}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"skip_cart":false,"uppercase_text":true,"icon_scale":100,"icon_spacing":10,"display_price":false,"enable_custom_color":false,"custom_color":"#53af01","enable_secondary_btn":false,"secondary_btn_label":"Buy It Now","secondary_btn_enable_custom_color":false,"secondary_btn_custom_color":"#dd1d1d","margin_top":0,"margin_bottom":0}},"custom_liquid_Aa6FAx":{"type":"custom_liquid","settings":{"custom_liquid":"<!-- Google Icons Link -->\n<link href=\"https:\/\/fonts.googleapis.com\/icon?family=Material+Icons\" rel=\"stylesheet\">\n\n<div style=\"display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; color: #000;\">\n    <span class=\"material-icons\" style=\"font-size: 14px; margin-right: 5px; color: #000;\">lock<\/span>\n    <p style=\"font-family: Poppins, sans-serif; font-size: 12px; margin-right: 4px; color: #000;\">Paiement Sécurisé<\/p>\n\n    <span style=\"color: #000; margin: 0 8px;\">|<\/span> <!-- Separator -->\n\n    <span class=\"material-icons\" style=\"font-size: 14px; margin-right: 5px; color: #000;\">verified<\/span>\n    <p style=\"font-family: Poppins, sans-serif; font-size: 12px; color: #000;\">Garantie 30 Jours<\/p>\n<\/div>"}},"image_4VPE6f":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/trust-badges.png","width":80,"Full_mobile_width":false,"alignment":"center","border_radius":0,"margin_top":0,"margin_bottom":15}},"e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5":{"type":"sticky_atc","settings":{"function":"add_to_cart","display_when":"after_scroll","button_label":"Ajouter au panier","enable_custom_btn_color":false,"custom_btn_color":"#dd1d1d","color_scheme":"background-1","star_color":"#ffcc00","stars_label":"(xxxx Reviews)","picker_type":"combined","desktop_show_image":true,"desktop_show_title":true,"desktop_rating_stars":false,"desktop_show_price":true,"desktop_show_sale_badge":true,"desktop_variant_picker":true,"desktop_full_button_width":false,"desktop_show_price_in_button":false,"desktop_transparent_bg":false,"mobile_show_image":false,"mobile_show_title":true,"mobile_rating_stars":false,"mobile_show_price":true,"mobile_show_sale_badge":false,"mobile_variant_picker":false,"mobile_full_button_width":false,"mobile_show_price_in_button":false,"mobile_transparent_bg":false}}},"block_order":["trustoo_io_reviews_star_rating_widget_x39UjP","title","custom_liquid_fkAi8i","inventory_RQdyL3","sizing_chart_K9AAbd","buy_buttons","custom_liquid_Aa6FAx","image_4VPE6f","e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5"],"custom_css":[],"settings":{"display_id":false,"enable_sticky_info":true,"display_variant_image_first":false,"disable_prepend":true,"hide_variants":true,"variant_image_filtering":"none","image_zoom":"none","arrows_color_scheme":"inverse","transparent_arrows":false,"dots_color_scheme":"inverse","video_player":"play_btn","enable_video_looping":false,"autoplay_videos_pause_btn":false,"video_sound_btn":false,"video_timeline":false,"play_btn_color_scheme":"accent-1","sound_btn_color_scheme":"inverse","timeline_color":"accent-1","media_size":"medium","media_position":"left","gallery_layout":"thumbnail_slider","desktop_thumbnails_count":5,"constrain_to_viewport":true,"media_fit":"contain","desktop_arrows_position":"hidden","mobile_media_corner_radius":0,"mobile_spacing_pixels":0,"mobile_arrows_position":"sides","mobile_pagination":"dots_overlay","mobile_thumbnails":"show","mobile_thumbnails_count":5,"mobile_scroll_padding_percentage":0,"mobile_scroll_padding_pixels":24,"enable_mobile_outher_spacing":false,"mobile_slides_container_width":100,"mobile_slides_inner_width":100,"trust_badge_position":"bottom-right","trust_badge_size":"medium","mobile_padding_top":0,"mobile_padding_bottom":16,"desktop_padding_top":36,"desktop_padding_bottom":36}},"17734353964e98951b":{"type":"apps","settings":{"display_id":false,"include_margins":true}},"collapsible_content_DHNXfi":{"type":"collapsible-content","blocks":{"collapsible_row_cURwJh":{"type":"collapsible_row","settings":{"heading":"Caractéristiques","icon":"info","filled_icon":false,"row_content":"<p>✅ <strong>Couvrance Awra<\/strong> – Couverture complète du nombril aux genoux<\/p><p>✅ <strong>Ultra polyvalent<\/strong> – Idéal pour BJJ, MMA, CrossFit, muscu, Muay Thai, <em><strong>natation<\/strong><\/em> et plus encore<br\/><br\/>✅ <strong>Tissu stretch 4D & respirant<\/strong> – Liberté totale de mouvement, maintien optimal, séchage rapide<br\/><br\/>✅ <strong>Coupe réglementaire<\/strong> – Conforme à toutes les fédérations de JJB, approuvé pour les compétitions<br\/><br\/>✅ <strong>Aucune<\/strong> <strong>remontée<\/strong> – Reste parfaitement en place, même pendant squats, sprawl ou scramble<\/p>","page":""}},"collapsible_row_NfiCAk":{"type":"collapsible_row","settings":{"heading":"Zakat – Aide à la Palestine","icon":"volunteer_activism","filled_icon":false,"custom_icon":"shopify:\/\/shop_images\/4060-200_1.png","row_content":"<p><strong>5% de nos bénéfices sont reversés à l’UNRWA. <\/strong>Ensemble, faisons la différence !<\/p>","page":""}},"collapsible_row_YBym9p":{"type":"collapsible_row","settings":{"heading":"Engagement CAWO","icon":"handshake","filled_icon":false,"row_content":"<p>Chez CAWO, on s'entraîne, on transpire, et on vit dans nos équipements – tout comme toi. C’est pourquoi chaque équipement est conçu pour durer, sans compromis sur le confort, la modestie ou la performance.<\/p><p>Nos clients parlent d’eux-mêmes : nos produits tiennent la route, à l'entraînement comme en compétition. Mais si jamais tu rencontres un souci (aussi rare soit-il), contacte-nous par e-mail à <strong>contact@cawoofficial.com<\/strong><br\/>ou sur Instagram <strong>@cawoofficial<\/strong> – on fera le nécessaire pour que tu sois satisfait.<\/p><p><strong>C’est notre promesse.<\/strong><\/p>","page":""}},"collapsible_row_WMbKjM":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Composition","icon":"arrow_or_edge","filled_icon":false,"row_content":"<p>Extérieur : <strong>95 % polyester, 5 % élasthanne<\/strong><\/p><p>Intérieur : <strong>92 % polyester, 8 % élasthanne<\/strong><\/p>","page":""}},"collapsible_row_8hWX7T":{"type":"collapsible_row","settings":{"heading":"Livraison & Retours","icon":"local_shipping","filled_icon":false,"row_content":"<p>La livraison standard prend <strong>5 à 9 jours ouvrés<\/strong>.<br\/><br\/>Toute commande passée avant <strong>16h<\/strong> est expédiée le jour même.<\/p><p>🔒 <strong>Garantie 30 Jours – Satisfait ou Remboursé<\/strong><br\/><br\/>Nous sommes convaincus que vous allez adorer nos équipements — sinon, retour facile et remboursement garanti. Simple.<\/p>","page":""}}},"block_order":["collapsible_row_cURwJh","collapsible_row_NfiCAk","collapsible_row_YBym9p","collapsible_row_WMbKjM","collapsible_row_8hWX7T"],"settings":{"display_id":false,"visibility":"always-display","caption":"","title":"","title_highlight_color":"#6d388b","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","open_first_collapsible_row":false,"video_muted_autoplay":true,"image_ratio":"adapt","desktop_layout":"image_second","row_heading_size":"medium","collapse_icon":"carret","display_top_border":true,"padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_contaner_colors_background":"#ffffff","custom_container_gradient_background":"","custom_contaner_colors_text":"#2e2a39"}},"related-products":{"type":"related-products","disabled":true,"settings":{"display_id":false,"title":"You may also like","title_highlight_color":"#6d388b","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","padding_top":36,"padding_bottom":24}},"featured_collection_yck7Fg":{"type":"featured-collection","name":"t:sections.featured-collection.presets.name","settings":{"display_id":false,"visibility":"always-display","title":"","title_highlight_color":"#121212","heading_size":"h1","description":"","show_description":false,"description_style":"body","color_scheme":"background-1","collection":"shorts","products_to_show":11,"stretch_cards":false,"show_view_all":true,"view_all_style":"solid","cards_color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"badges":"regular","show_vendor":false,"show_rating":false,"enable_quick_add":false,"swatches_option_name":"","swatches_position":"top","swatches_desktop_size":36,"swatches_mobile_size":24,"type":"slide","autoplay":false,"autoplay_speed":3,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":3,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"2","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff"}},"custom_columns_zdHMUU":{"type":"custom-columns","blocks":{"heading_c4Bqgg":{"type":"heading","settings":{"column":"col_1","visibility":"always-display","heading":"<strong>Un confort optimisé pour tous les athlètes<\/strong>","title_highlight_color":"#121212","heading_size":"h1","alignment":"center","mobile_alignment":"mobile-center","margin_top":20,"margin_bottom":20}},"richtext_MJWUVK":{"type":"richtext","disabled":true,"settings":{"column":"col_1","visibility":"always-display","text":"<p>Sont conçus pour offrir une <strong>couverture complète du nombril aux genoux<\/strong>, alliant <strong>pudeur, confort et liberté de mouvement<\/strong>. Idéals pour les athlètes recherchant une tenue <strong>modeste et performante<\/strong>.<\/p>","text_style":"body","alignment":"center","mobile_alignment":"mobile-center","margin_top":20,"margin_bottom":20}},"image_W3xbwj":{"type":"image","disabled":true,"settings":{"column":"col_3","visibility":"always-display","image":"shopify:\/\/shop_images\/484543659_17896739007173445_1788641285446315317_n.jpg","width":100,"alignment":"center","mobile_alignment":"center","border_radius":0,"margin_top":20,"margin_bottom":20}},"custom_liquid_PFgkqX":{"type":"custom_liquid","settings":{"column":"col_1","visibility":"always-display","custom_liquid":"<style>\n  .instagram-scroll-wrapper {\n    display: flex;\n    gap: 10px;\n    overflow-x: auto;\n    padding: 1rem 0;\n    scroll-snap-type: x mandatory;\n  }\n\n  .instagram-scroll-wrapper blockquote {\n    flex: 0 0 220px;\n    scroll-snap-align: start;\n  }\n\n  .instagram-scroll-wrapper::-webkit-scrollbar {\n    display: none;\n  }\n\n  .instagram-scroll-wrapper {\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n<\/style>\n\n<div class=\"instagram-scroll-wrapper\">\n\n  <!-- Instagram Post #1 -->\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/DHO9ANtg1fm\/\"\n    data-instgrm-version=\"14\"\n    style=\"background:#FFF; border:0; border-radius:3px;\n           box-shadow:0 0 1px 0 rgba(0,0,0,0.5),\n           0 1px 10px 0 rgba(0,0,0,0.15);\n           width:100%; min-width:160px; max-width:220px;\">\n  <\/blockquote>\n\n  <!-- Instagram Post #2 -->\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/DJXyjSYJQBZ\/\"\n    data-instgrm-version=\"14\"\n    style=\"background:#FFF; border:0; border-radius:3px;\n           box-shadow:0 0 1px 0 rgba(0,0,0,0.5),\n           0 1px 10px 0 rgba(0,0,0,0.15);\n           width:100%; min-width:160px; max-width:220px;\">\n  <\/blockquote>\n\n  <!-- Add more posts below as needed -->\n  <!--\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/POST_ID\/\"\n    data-instgrm-version=\"14\"><\/blockquote>\n  -->\n\n<\/div>\n\n<!-- Load Instagram Embed Script -->\n<script src=\"https:\/\/www.instagram.com\/embed.js\"><\/script>\n\n<!-- Re-process embeds to ensure all posts render -->\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    if (window.instgrm && window.instgrm.Embeds) {\n      window.instgrm.Embeds.process();\n    }\n  });\n<\/script>","margin_top":20,"margin_bottom":0}}},"block_order":["heading_c4Bqgg","richtext_MJWUVK","image_W3xbwj","custom_liquid_PFgkqX"],"settings":{"display_id":false,"visibility":"always-display","color_scheme":"background-1","columns_count":4,"column_gap_desktop":40,"row_gap_desktop":40,"desktop_vertical_alignment":"center","column_gap_mobile":20,"row_gap_mobile":30,"mobile_vertical_alignment":"flex-start","col_1_desktop_width":12,"col_1_mobile_width":4,"col_1_visibility":"always-display","col_2_desktop_width":4,"col_2_mobile_width":4,"col_2_visibility":"always-display","col_3_desktop_width":4,"col_3_mobile_width":4,"col_3_visibility":"always-display","col_4_desktop_width":4,"col_4_mobile_width":4,"col_4_visibility":"always-display","col_5_desktop_width":3,"col_5_mobile_width":4,"col_5_visibility":"always-display","col_6_desktop_width":3,"col_6_mobile_width":4,"col_6_visibility":"always-display","padding_top":36,"padding_bottom":0,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"8beb6911-28c6-482c-976a-e5421ad3e8df":{"type":"custom-columns","blocks":{"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1":{"type":"heading","settings":{"column":"col_1","visibility":"always-display","heading":"Shorts de Sport Genoux-Nombril","title_highlight_color":"#6d388b","heading_size":"h1","alignment":"center","mobile_alignment":"mobile-center","margin_top":20,"margin_bottom":20}},"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1":{"type":"richtext","settings":{"column":"col_1","visibility":"always-display","text":"<p>Ces shorts sont parfaits pour ceux qui recherchent à la fois confort, couverture et style dans leur tenue sportive. Conçus spécialement pour les athlètes préférant une coupe plus couvrante, ils constituent un indispensable polyvalent pour toute garde-robe de sport.<\/p>","text_style":"body","alignment":"center","mobile_alignment":"mobile-center","margin_top":20,"margin_bottom":20}},"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1":{"type":"icon_with_text","settings":{"column":"col_2","visibility":"always-display","icon":"check_circle","filled_icon":false,"icon_size":"m","icon_position":"next-to-title","icon_color":"accent-1","icon_heading_size":"h3","icon_text_alignment":"left","title":"Composition révolutionnaire","text":"<p>Extérieur : <strong>95 % polyester, 5 % élasthanne<\/strong><\/p><p>Intérieur : <strong>92 % polyester, 8 % élasthanne<\/strong><\/p>","margin_top":20,"margin_bottom":30}},"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2":{"type":"icon_with_text","settings":{"column":"col_2","visibility":"always-display","icon":"check_circle","filled_icon":false,"icon_size":"m","icon_position":"next-to-title","icon_color":"accent-1","icon_heading_size":"h3","icon_text_alignment":"left","title":"Couverture étendue","text":"<p>S’étend du <strong>genou au nombril<\/strong>, adapté à toutes les préférences en matière de modestie<\/p>","margin_top":20,"margin_bottom":20}},"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3":{"type":"icon_with_text","settings":{"column":"col_4","visibility":"always-display","icon":"check_circle","filled_icon":false,"icon_size":"m","icon_position":"next-to-title","icon_color":"accent-1","icon_heading_size":"h3","icon_text_alignment":"left","title":"Design futuriste","text":"<p><strong>Taille élastique haute technologie<\/strong> pour un ajustement parfait<\/p><p><strong>Imprimés uniques<\/strong> pour un style audacieux et moderne<\/p>","margin_top":20,"margin_bottom":30}},"template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4":{"type":"icon_with_text","settings":{"column":"col_4","visibility":"always-display","icon":"check_circle","filled_icon":false,"icon_size":"m","icon_position":"next-to-title","icon_color":"accent-1","icon_heading_size":"h3","icon_text_alignment":"left","title":"Confort avancé","text":"<p><strong>Doublure en mesh respirante<\/strong>, avec un traitement en silicone pour une douceur exceptionnelle<\/p>","margin_top":20,"margin_bottom":20}}},"block_order":["template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1","template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1","template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1","template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2","template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3","template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4"],"disabled":true,"settings":{"display_id":false,"visibility":"always-display","color_scheme":"background-1","columns_count":4,"column_gap_desktop":40,"row_gap_desktop":40,"desktop_vertical_alignment":"center","column_gap_mobile":20,"row_gap_mobile":30,"mobile_vertical_alignment":"flex-start","col_1_desktop_width":12,"col_1_mobile_width":4,"col_1_visibility":"always-display","col_2_desktop_width":4,"col_2_mobile_width":4,"col_2_visibility":"always-display","col_3_desktop_width":4,"col_3_mobile_width":4,"col_3_visibility":"always-display","col_4_desktop_width":4,"col_4_mobile_width":4,"col_4_visibility":"always-display","col_5_desktop_width":3,"col_5_mobile_width":4,"col_5_visibility":"always-display","col_6_desktop_width":3,"col_6_mobile_width":4,"col_6_visibility":"always-display","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"4fc05ee5-1c30-4863-b88f-81cb6fa7c41a":{"type":"icons-with-content","blocks":{"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1":{"type":"icon","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon with text","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<\/p>"}},"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2":{"type":"icon","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon with text","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<\/p>"}},"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3":{"type":"icon","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon with text","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<\/p>"}},"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1":{"type":"heading","settings":{"title":"Content heading","title_highlight_color":"#6d388b","heading_size":"h1"}},"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1":{"type":"text","settings":{"text":"<p>Pair icons with content to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1","template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2","template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3","template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1","template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1","template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1"],"disabled":true,"settings":{"display_id":false,"visibility":"always-display","color_scheme":"background-1","icon_size":"m","icon_position":"next-to-title","icon_color":"accent-1","icon_heading_size":"h3","icon_text_alignment":"left","icons_desktop_layout":"1-column","icons_mobile_layout":"1-column","desktop_content_alignment":"left","layout":"image_first","mobile_layout":"text_first","hide_content_on_mobile":false,"padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"55bd100e-3bbd-426c-a5cf-eed7b2a3706f":{"type":"testimonials","blocks":{"template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-1":{"type":"column","settings":{"title":"Heading","text":"<p>Share positive thoughts and feedback from your customer..<\/p>","author":"<em><strong>Author<\/strong><\/em>"}},"template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-2":{"type":"column","settings":{"title":"Heading","text":"<p>Share positive thoughts and feedback from your customer..<\/p>","author":"<em><strong>Author<\/strong><\/em>"}},"template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-3":{"type":"column","settings":{"title":"Heading","text":"<p>Share positive thoughts and feedback from your customer..<\/p>","author":"<em><strong>Author<\/strong><\/em>"}}},"block_order":["template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-1","template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-2","template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-3"],"disabled":true,"settings":{"display_id":false,"visibility":"always-display","title":"Testimonials","title_highlight_color":"#6d388b","heading_size":"h1","text":"","color_scheme":"background-1","image_width":"full","image_ratio":"square","column_alignment":"center","show_stars":true,"stars_color":"#ffd700","show_quotes":true,"quotes_color_scheme":"accent-2","cards_color_scheme":"bg-overlay","type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":3,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_cards_colors_background":"#f3f3f3","custom_cards_gradient_background":"","custom_cards_colors_text":"#2e2a39"}},"1753910462059d66f0":{"type":"apps","blocks":{"trustoo_io_reviews_review_widget_QGByAU":{"type":"shopify:\/\/apps\/trustwill-trustoo\/blocks\/review-widget\/c8f15077-6475-4e86-ad06-b66038d5ba2c","settings":{"product":""}},"trustoo_io_reviews_barrage_carousel_eFfzhg":{"type":"shopify:\/\/apps\/trustwill-trustoo\/blocks\/barrage-carousel\/c8f15077-6475-4e86-ad06-b66038d5ba2c","settings":{}}},"block_order":["trustoo_io_reviews_review_widget_QGByAU","trustoo_io_reviews_barrage_carousel_eFfzhg"],"settings":{"display_id":false,"include_margins":true}},"icon_bar_AJM7dL":{"type":"icon-bar","blocks":{"column_QcDYX3":{"type":"column","disabled":true,"settings":{"icon":"local_shipping","filled_icon":false,"title":"Livraison Gratuite","text":"<p><strong>🔥 Dernières 24h Black Friday<\/strong> :<strong> livraison gratuite sur toutes les commandes. <\/strong>Aucun minimum d’achat. Profitez-en !<\/p>"}},"column_4BhUQ3":{"type":"column","settings":{"icon":"refresh","filled_icon":false,"title":"Garantie","text":"<p>Nous sommes convaincus que vous allez adorer nos équipements ! C’est pourquoi nous offrons une garantie<strong> satisfait ou remboursé de 30 jours<\/strong>.<\/p>"}},"column_i3XeRC":{"type":"column","settings":{"icon":"support_agent","filled_icon":false,"title":"Service Client à Votre Écoute","text":"<p>Nous sommes <strong>disponible et réactive<\/strong> pour répondre à toutes vos questions et vous accompagner avant, pendant et après votre achat.<\/p>"}}},"block_order":["column_QcDYX3","column_4BhUQ3","column_i3XeRC"],"settings":{"display_id":false,"visibility":"always-display","title":"","title_highlight_color":"#6d388b","heading_size":"h1","text":"","color_scheme":"background-1","icon_layout":"vertical","icon_size":"large","icon_color":"accent-1","cards_color_scheme":"background-1","type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":4,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"1","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_cards_colors_background":"#f3f3f3","custom_cards_gradient_background":"","custom_cards_colors_text":"#2e2a39"}},"b321ab88-2b59-4dba-bade-54885c874ca5":{"type":"section-divider","settings":{"visibility":"always-display","shape":"waves_3","flip_horizontal":false,"flip_vertical":false,"shape_color":"accent-1","custom_shape_color":"#dd1d1d","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}}},"order":["main","17734353964e98951b","collapsible_content_DHNXfi","related-products","featured_collection_yck7Fg","custom_columns_zdHMUU","8beb6911-28c6-482c-976a-e5421ad3e8df","4fc05ee5-1c30-4863-b88f-81cb6fa7c41a","55bd100e-3bbd-426c-a5cf-eed7b2a3706f","1753910462059d66f0","icon_bar_AJM7dL","b321ab88-2b59-4dba-bade-54885c874ca5"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "horizontal_products_jfYrbd": {
+      "type": "horizontal-products",
+      "name": "Horizontal Products",
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h2",
+        "collection": "shorts",
+        "products_to_show": 16,
+        "card_size": 130,
+        "color_scheme": "background-1",
+        "custom_colors_background": "#ffffff",
+        "custom_colors_text": "#000000",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "trustoo_io_reviews_star_rating_widget_x39UjP": {
+          "type": "shopify://apps/trustwill-trustoo/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "star_size": 20,
+            "font_size": 16,
+            "text_color": "#585858",
+            "block_aligment": "left",
+            "margin_top": 10,
+            "margin_bottom": 0
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": true,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "custom_liquid_fkAi8i": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"text-md text-gray-600\">Couverture Optimale pour Votre Awra</p>"
+          }
+        },
+        "inventory_RQdyL3": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 100,
+            "show_inventory_quantity": false,
+            "margin_top": 6,
+            "margin_bottom": 0
+          }
+        },
+        "sizing_chart_K9AAbd": {
+          "type": "sizing_chart",
+          "settings": {
+            "test_mode": false,
+            "append": "none",
+            "button_label": "Guide des tailles",
+            "button_icon": "straighten",
+            "button_filled_icon": false,
+            "text_size": 17,
+            "button_alignment": "start",
+            "button_underline": false,
+            "headline": "Guide des tailles",
+            "heading_size": "h3",
+            "close_button_style": "minimalistic",
+            "color_scheme": "background-1",
+            "table_header_content": "Size, Chest, Length, Shoulder",
+            "table_header_color_scheme": "inverse",
+            "table_content": "",
+            "caption_text": "",
+            "caption_size": "1.45rem",
+            "caption_color": "#121212",
+            "caption_alignment": "left",
+            "top_image": "shopify://shop_images/SIZE_CHART_9.png",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 100,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "custom_liquid_Aa6FAx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Google Icons Link -->\n<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n\n<div style=\"display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; color: #000;\">\n    <span class=\"material-icons\" style=\"font-size: 14px; margin-right: 5px; color: #000;\">lock</span>\n    <p style=\"font-family: Poppins, sans-serif; font-size: 12px; margin-right: 4px; color: #000;\">Paiement Sécurisé</p>\n\n    <span style=\"color: #000; margin: 0 8px;\">|</span> <!-- Separator -->\n\n    <span class=\"material-icons\" style=\"font-size: 14px; margin-right: 5px; color: #000;\">verified</span>\n    <p style=\"font-family: Poppins, sans-serif; font-size: 12px; color: #000;\">Garantie 30 Jours</p>\n</div>"
+          }
+        },
+        "image_4VPE6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/trust-badges.png",
+            "width": 80,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Ajouter au panier",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_star_rating_widget_x39UjP",
+        "title",
+        "custom_liquid_fkAi8i",
+        "inventory_RQdyL3",
+        "sizing_chart_K9AAbd",
+        "buy_buttons",
+        "custom_liquid_Aa6FAx",
+        "image_4VPE6f",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": true,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_count": 5,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails": "show",
+        "mobile_thumbnails_count": 5,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 24,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "bottom-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "17734353964e98951b": {
+      "type": "apps",
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "collapsible_content_DHNXfi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_cURwJh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Caractéristiques",
+            "icon": "info",
+            "filled_icon": false,
+            "row_content": "<p>✅ <strong>Couvrance Awra</strong> – Couverture complète du nombril aux genoux</p><p>✅ <strong>Ultra polyvalent</strong> – Idéal pour BJJ, MMA, CrossFit, muscu, Muay Thai, <em><strong>natation</strong></em> et plus encore<br/><br/>✅ <strong>Tissu stretch 4D & respirant</strong> – Liberté totale de mouvement, maintien optimal, séchage rapide<br/><br/>✅ <strong>Coupe réglementaire</strong> – Conforme à toutes les fédérations de JJB, approuvé pour les compétitions<br/><br/>✅ <strong>Aucune</strong> <strong>remontée</strong> – Reste parfaitement en place, même pendant squats, sprawl ou scramble</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NfiCAk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zakat – Aide à la Palestine",
+            "icon": "volunteer_activism",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/4060-200_1.png",
+            "row_content": "<p><strong>5% de nos bénéfices sont reversés à l’UNRWA. </strong>Ensemble, faisons la différence !</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YBym9p": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Engagement CAWO",
+            "icon": "handshake",
+            "filled_icon": false,
+            "row_content": "<p>Chez CAWO, on s'entraîne, on transpire, et on vit dans nos équipements – tout comme toi. C’est pourquoi chaque équipement est conçu pour durer, sans compromis sur le confort, la modestie ou la performance.</p><p>Nos clients parlent d’eux-mêmes : nos produits tiennent la route, à l'entraînement comme en compétition. Mais si jamais tu rencontres un souci (aussi rare soit-il), contacte-nous par e-mail à <strong>contact@cawoofficial.com</strong><br/>ou sur Instagram <strong>@cawoofficial</strong> – on fera le nécessaire pour que tu sois satisfait.</p><p><strong>C’est notre promesse.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WMbKjM": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Composition",
+            "icon": "arrow_or_edge",
+            "filled_icon": false,
+            "row_content": "<p>Extérieur : <strong>95 % polyester, 5 % élasthanne</strong></p><p>Intérieur : <strong>92 % polyester, 8 % élasthanne</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8hWX7T": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Livraison & Retours",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "row_content": "<p>La livraison standard prend <strong>5 à 9 jours ouvrés</strong>.<br/><br/>Toute commande passée avant <strong>16h</strong> est expédiée le jour même.</p><p>🔒 <strong>Garantie 30 Jours – Satisfait ou Remboursé</strong><br/><br/>Nous sommes convaincus que vous allez adorer nos équipements — sinon, retour facile et remboursement garanti. Simple.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_cURwJh",
+        "collapsible_row_NfiCAk",
+        "collapsible_row_YBym9p",
+        "collapsible_row_WMbKjM",
+        "collapsible_row_8hWX7T"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_yck7Fg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#121212",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "shorts",
+        "products_to_show": 11,
+        "stretch_cards": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "",
+        "swatches_position": "top",
+        "swatches_desktop_size": 36,
+        "swatches_mobile_size": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "custom_columns_zdHMUU": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_c4Bqgg": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "heading": "<strong>Un confort optimisé pour tous les athlètes</strong>",
+            "title_highlight_color": "#121212",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "richtext_MJWUVK": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "text": "<p>Sont conçus pour offrir une <strong>couverture complète du nombril aux genoux</strong>, alliant <strong>pudeur, confort et liberté de mouvement</strong>. Idéals pour les athlètes recherchant une tenue <strong>modeste et performante</strong>.</p>",
+            "text_style": "body",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "image_W3xbwj": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "image": "shopify://shop_images/484543659_17896739007173445_1788641285446315317_n.jpg",
+            "width": 100,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "border_radius": 0,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "custom_liquid_PFgkqX": {
+          "type": "custom_liquid",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "custom_liquid": "<style>\n  .instagram-scroll-wrapper {\n    display: flex;\n    gap: 10px;\n    overflow-x: auto;\n    padding: 1rem 0;\n    scroll-snap-type: x mandatory;\n  }\n\n  .instagram-scroll-wrapper blockquote {\n    flex: 0 0 220px;\n    scroll-snap-align: start;\n  }\n\n  .instagram-scroll-wrapper::-webkit-scrollbar {\n    display: none;\n  }\n\n  .instagram-scroll-wrapper {\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n</style>\n\n<div class=\"instagram-scroll-wrapper\">\n\n  <!-- Instagram Post #1 -->\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https://www.instagram.com/p/DHO9ANtg1fm/\"\n    data-instgrm-version=\"14\"\n    style=\"background:#FFF; border:0; border-radius:3px;\n           box-shadow:0 0 1px 0 rgba(0,0,0,0.5),\n           0 1px 10px 0 rgba(0,0,0,0.15);\n           width:100%; min-width:160px; max-width:220px;\">\n  </blockquote>\n\n  <!-- Instagram Post #2 -->\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https://www.instagram.com/p/DJXyjSYJQBZ/\"\n    data-instgrm-version=\"14\"\n    style=\"background:#FFF; border:0; border-radius:3px;\n           box-shadow:0 0 1px 0 rgba(0,0,0,0.5),\n           0 1px 10px 0 rgba(0,0,0,0.15);\n           width:100%; min-width:160px; max-width:220px;\">\n  </blockquote>\n\n  <!-- Add more posts below as needed -->\n  <!--\n  <blockquote class=\"instagram-media\"\n    data-instgrm-permalink=\"https://www.instagram.com/p/POST_ID/\"\n    data-instgrm-version=\"14\"></blockquote>\n  -->\n\n</div>\n\n<!-- Load Instagram Embed Script -->\n<script src=\"https://www.instagram.com/embed.js\"></script>\n\n<!-- Re-process embeds to ensure all posts render -->\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    if (window.instgrm && window.instgrm.Embeds) {\n      window.instgrm.Embeds.process();\n    }\n  });\n</script>",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_c4Bqgg",
+        "richtext_MJWUVK",
+        "image_W3xbwj",
+        "custom_liquid_PFgkqX"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "columns_count": 4,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 4,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 4,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "8beb6911-28c6-482c-976a-e5421ad3e8df": {
+      "type": "custom-columns",
+      "blocks": {
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "heading": "Shorts de Sport Genoux-Nombril",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "text": "<p>Ces shorts sont parfaits pour ceux qui recherchent à la fois confort, couverture et style dans leur tenue sportive. Conçus spécialement pour les athlètes préférant une coupe plus couvrante, ils constituent un indispensable polyvalent pour toute garde-robe de sport.</p>",
+            "text_style": "body",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Composition révolutionnaire",
+            "text": "<p>Extérieur : <strong>95 % polyester, 5 % élasthanne</strong></p><p>Intérieur : <strong>92 % polyester, 8 % élasthanne</strong></p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Couverture étendue",
+            "text": "<p>S’étend du <strong>genou au nombril</strong>, adapté à toutes les préférences en matière de modestie</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Design futuriste",
+            "text": "<p><strong>Taille élastique haute technologie</strong> pour un ajustement parfait</p><p><strong>Imprimés uniques</strong> pour un style audacieux et moderne</p>",
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "icon_size": "m",
+            "icon_position": "next-to-title",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Confort avancé",
+            "text": "<p><strong>Doublure en mesh respirante</strong>, avec un traitement en silicone pour une douceur exceptionnelle</p>",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1",
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1",
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1",
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2",
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3",
+        "template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "columns_count": 4,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 4,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 4,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a": {
+      "type": "icons-with-content",
+      "blocks": {
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon with text",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon with text",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "title": "Icon with text",
+            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post</p>"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Content heading",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair icons with content to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1",
+        "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "icon_size": "m",
+        "icon_position": "next-to-title",
+        "icon_color": "accent-1",
+        "icon_heading_size": "h3",
+        "icon_text_alignment": "left",
+        "icons_desktop_layout": "1-column",
+        "icons_mobile_layout": "1-column",
+        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "mobile_layout": "text_first",
+        "hide_content_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "55bd100e-3bbd-426c-a5cf-eed7b2a3706f": {
+      "type": "testimonials",
+      "blocks": {
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        },
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        },
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
+            "author": "<em><strong>Author</strong></em>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-1",
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-2",
+        "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Testimonials",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "show_stars": true,
+        "stars_color": "#ffd700",
+        "show_quotes": true,
+        "quotes_color_scheme": "accent-2",
+        "cards_color_scheme": "bg-overlay",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "1753910462059d66f0": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_review_widget_QGByAU": {
+          "type": "shopify://apps/trustwill-trustoo/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": ""
+          }
+        },
+        "trustoo_io_reviews_barrage_carousel_eFfzhg": {
+          "type": "shopify://apps/trustwill-trustoo/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_review_widget_QGByAU",
+        "trustoo_io_reviews_barrage_carousel_eFfzhg"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "icon_bar_AJM7dL": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_QcDYX3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "title": "Livraison Gratuite",
+            "text": "<p><strong>🔥 Dernières 24h Black Friday</strong> :<strong> livraison gratuite sur toutes les commandes. </strong>Aucun minimum d’achat. Profitez-en !</p>"
+          }
+        },
+        "column_4BhUQ3": {
+          "type": "column",
+          "settings": {
+            "icon": "refresh",
+            "filled_icon": false,
+            "title": "Garantie",
+            "text": "<p>Nous sommes convaincus que vous allez adorer nos équipements ! C’est pourquoi nous offrons une garantie<strong> satisfait ou remboursé de 30 jours</strong>.</p>"
+          }
+        },
+        "column_i3XeRC": {
+          "type": "column",
+          "settings": {
+            "icon": "support_agent",
+            "filled_icon": false,
+            "title": "Service Client à Votre Écoute",
+            "text": "<p>Nous sommes <strong>disponible et réactive</strong> pour répondre à toutes vos questions et vous accompagner avant, pendant et après votre achat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_QcDYX3",
+        "column_4BhUQ3",
+        "column_i3XeRC"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "large",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "b321ab88-2b59-4dba-bade-54885c874ca5": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "horizontal_products_jfYrbd",
+    "main",
+    "17734353964e98951b",
+    "collapsible_content_DHNXfi",
+    "related-products",
+    "featured_collection_yck7Fg",
+    "custom_columns_zdHMUU",
+    "8beb6911-28c6-482c-976a-e5421ad3e8df",
+    "4fc05ee5-1c30-4863-b88f-81cb6fa7c41a",
+    "55bd100e-3bbd-426c-a5cf-eed7b2a3706f",
+    "1753910462059d66f0",
+    "icon_bar_AJM7dL",
+    "b321ab88-2b59-4dba-bade-54885c874ca5"
+  ]
+}
