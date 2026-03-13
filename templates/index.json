@@ -15,7 +15,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/Group_502_3.png?v=1747952501\" \n    alt=\"CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    \n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0 2.5vw; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      Découvrez les shorts CAWO\n    <\/h2>\n  \n    <a href=\"https:\/\/cawoofficial.com\/collections\/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        VOIR LES SHORTS ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>",
+        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https://cdn.shopify.com/s/files/1/0903/9351/0231/files/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0903/9351/0231/files/Group_502_3.png?v=1747952501\" \n    alt=\"CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    \n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0 2.5vw; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      Découvrez les shorts CAWO\n    </h2>\n  \n    <a href=\"https://cawoofficial.com/collections/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        VOIR LES SHORTS ›\n      </span>\n    </a>\n\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -28,7 +28,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n<\/style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0903\/9351\/0231\/files\/full_red.png?v=1766499091\" \n    alt=\"Rashguard Édition CAN 2025\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    <h2 style=\"font-size: 4.6vw; margin: 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      ÉDITION LIMITÉE\n    <\/h2>\n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      RASHGUARD CAN 2025\n    <\/h2>\n\n    <p style=\"\n      font-size: 2.2vw;\n      margin: 0 0 2.5vw;\n      color: white;\n      font-family: 'Monument Extended', sans-serif;\n      font-weight: 900;\n    \">\n      QUANTITÉS LIMITÉES • 50 PCS\n    <\/p>\n  \n    <a href=\"https:\/\/cawoofficial.com\/products\/rashguard-edition-can\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        ACCÉDER ›\n      <\/span>\n    <\/a>\n\n  <\/div>\n<\/div>",
+        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https://cdn.shopify.com/s/files/1/0903/9351/0231/files/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0903/9351/0231/files/full_red.png?v=1766499091\" \n    alt=\"Rashguard Édition CAN 2025\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    <h2 style=\"font-size: 4.6vw; margin: 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      ÉDITION LIMITÉE\n    </h2>\n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      RASHGUARD CAN 2025\n    </h2>\n\n    <p style=\"\n      font-size: 2.2vw;\n      margin: 0 0 2.5vw;\n      color: white;\n      font-family: 'Monument Extended', sans-serif;\n      font-weight: 900;\n    \">\n      QUANTITÉS LIMITÉES • 50 PCS\n    </p>\n  \n    <a href=\"https://cawoofficial.com/products/rashguard-edition-can\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        ACCÉDER ›\n      </span>\n    </a>\n\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -36,6 +36,7 @@
     },
     "featured_collection_AjqKXK": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "display_id": false,
@@ -94,6 +95,25 @@
         "custom_colors_solid_button_text": "#ffffff"
       }
     },
+    "horizontal_products_home": {
+      "type": "horizontal-products",
+      "name": "Horizontal Products",
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h2",
+        "collection": "shop-all",
+        "products_to_show": 12,
+        "show_badge_numbers": true,
+        "show_bestseller_badge": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "badge_color": "#dd1d1d",
+        "custom_colors_background": "#ffffff",
+        "custom_colors_text": "#000000",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "section_divider_LJTd6t": {
       "type": "section-divider",
       "name": "Section divider",
@@ -132,7 +152,7 @@
         "slide_iTiXht": {
           "type": "slide",
           "settings": {
-            "desktop_bg_image": "shopify:\/\/shop_images\/Group_505_2.png",
+            "desktop_bg_image": "shopify://shop_images/Group_505_2.png",
             "desktop_overlay_color": "#000000",
             "desktop_overlay_opacity": 0,
             "mobile_overlay_color": "#000000",
@@ -169,7 +189,9 @@
           }
         }
       },
-      "block_order": ["slide_iTiXht"],
+      "block_order": [
+        "slide_iTiXht"
+      ],
       "disabled": true,
       "name": "Slideshow hero",
       "settings": {
@@ -208,7 +230,7 @@
         "text_8HWVzR": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez notre rashguard exclusif:<br\/>✔️ Tissu extensible 4D & respirant<br\/>✔️ Confort & maintien en combat<br\/>✔️ Design floral unique + “JJB SI Y’A HEJA”<br\/>⚡ <strong>Seulement 50 pièces disponibles – jamais reproduites.<\/strong><\/p>",
+            "text": "<p>Découvrez notre rashguard exclusif:<br/>✔️ Tissu extensible 4D & respirant<br/>✔️ Confort & maintien en combat<br/>✔️ Design floral unique + “JJB SI Y’A HEJA”<br/>⚡ <strong>Seulement 50 pièces disponibles – jamais reproduites.</strong></p>",
             "text_style": "body"
           }
         },
@@ -216,17 +238,21 @@
           "type": "button",
           "settings": {
             "button_label": "Commande maintenant",
-            "button_link": "shopify:\/\/products\/rashguard-jjb-si-ya-heja"
+            "button_link": "shopify://products/rashguard-jjb-si-ya-heja"
           }
         }
       },
-      "block_order": ["heading_gkDgGp", "text_8HWVzR", "button_aYEjAY"],
+      "block_order": [
+        "heading_gkDgGp",
+        "text_8HWVzR",
+        "button_aYEjAY"
+      ],
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify:\/\/shop_images\/4b1c25_2.png",
+        "image": "shopify://shop_images/4b1c25_2.png",
         "video_autoplay": true,
         "video_loop": true,
         "height": "adapt",
@@ -254,25 +280,6 @@
         "custom_colors_outline_button": "#dd1d1d",
         "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
-      }
-    },
-    "horizontal_products_home": {
-      "type": "horizontal-products",
-      "name": "Horizontal Products",
-      "settings": {
-        "title": "Featured Products",
-        "heading_size": "h2",
-        "collection": "shop-all",
-        "products_to_show": 12,
-        "show_badge_numbers": true,
-        "show_bestseller_badge": true,
-        "show_rating": true,
-        "color_scheme": "background-1",
-        "badge_color": "#dd1d1d",
-        "custom_colors_background": "#ffffff",
-        "custom_colors_text": "#000000",
-        "padding_top": 24,
-        "padding_bottom": 24
       }
     }
   },
