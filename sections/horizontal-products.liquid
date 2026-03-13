@@ -112,6 +112,7 @@
 
 <div class="color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-padding">
   <div class="page-width">
+    {%- assign page_product = product -%}
     {% if section.settings.title != blank %}
       <div class="title-wrapper">
         <h2 class="title {{ section.settings.heading_size }}" style="margin-bottom: 1rem; margin-top: 0;">
@@ -122,7 +123,11 @@
 
     <div class="horizontal-products-{{ section.id }}">
       {%- if section.settings.collection != blank -%}
-        {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+        {%- assign shown = 0 -%}
+        {%- for product in section.settings.collection.products -%}
+          {%- if product.handle == page_product.handle -%}{%- continue -%}{%- endif -%}
+          {%- if shown >= section.settings.products_to_show -%}{%- break -%}{%- endif -%}
+          {%- assign shown = shown | plus: 1 -%}
           <div class="product-card">
             <a href="{{ product.url }}">
               {% if product.featured_image %}
