@@ -13,7 +13,9 @@
       "type": "horizontal-products",
       "name": "Horizontal Products",
       "settings": {
-        "title": "",
+        "show_on_desktop": true,
+        "show_title": false,
+        "title": "SHORTS CAWO",
         "heading_size": "h2",
         "collection": "shorts",
         "products_to_show": 16,
