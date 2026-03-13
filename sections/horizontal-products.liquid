@@ -105,17 +105,49 @@
     color: inherit;
   }
 
-  .title-wrapper {
+  .title-wrapper-{{ section.id }} {
     margin-bottom: 0.6rem;
   }
+
+  .title-wrapper-{{ section.id }} .section-heading {
+    font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 15px;
+    line-height: 1.1;
+    margin: 0;
+    text-align: left;
+    color: var(--color-foreground, #111);
+  }
+
+  .title-wrapper-{{ section.id }} .section-heading.h1 {
+    font-size: 22px;
+  }
+
+  .title-wrapper-{{ section.id }} .section-heading.h2 {
+    font-size: 17px;
+  }
+
+  .title-wrapper-{{ section.id }} .section-heading.h3 {
+    font-size: 13px;
+  }
+
+  {% unless section.settings.show_on_desktop %}
+    @media screen and (min-width: 750px) {
+      .horizontal-section-{{ section.id }} {
+        display: none !important;
+      }
+    }
+  {% endunless %}
 {%- endstyle -%}
 
-<div class="color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-padding">
+<div class="horizontal-section-{{ section.id }} color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-padding">
   <div class="page-width">
     {%- assign page_product = product -%}
     {% if section.settings.title != blank %}
-      <div class="title-wrapper">
-        <h2 class="title {{ section.settings.heading_size }}" style="margin-bottom: 1rem; margin-top: 0;">
+      <div class="title-wrapper-{{ section.id }}">
+        <h2 class="section-heading {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
       </div>
@@ -139,9 +171,11 @@
                   >
                 </div>
               {% endif %}
-              <div class="product-card__content">
-                <h3 class="product-card__title">{{ product.title }}</h3>
-              </div>
+              {% if section.settings.show_title %}
+                <div class="product-card__content">
+                  <h3 class="product-card__title">{{ product.title }}</h3>
+                </div>
+              {% endif %}
             </a>
           </div>
         {%- endfor -%}
@@ -171,6 +205,18 @@
     {
       "type": "header",
       "content": "Display"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_desktop",
+      "default": true,
+      "label": "Show on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "default": true,
+      "label": "Show product title"
     },
     {
       "type": "text",
