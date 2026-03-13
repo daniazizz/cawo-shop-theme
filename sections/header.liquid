@@ -673,6 +673,90 @@
       </a>
     </div>
   </header>
+
+  <!-- Ramadan Eid Lights -->
+  <div class="ramadan-lights" aria-hidden="true">
+    {%- for i in (1..20) -%}
+      {%- assign delay = i | times: 0.15 -%}
+      {%- assign hue_options = '45,35,25,15,50,40,30,20,55,10' | split: ',' -%}
+      {%- assign hue_index = i | modulo: 10 -%}
+      {%- assign hue = hue_options[hue_index] -%}
+      <div class="ramadan-light" style="--delay: {{ delay }}s; --hue: {{ hue }};"></div>
+    {%- endfor -%}
+  </div>
+  <style>
+    .ramadan-lights {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      z-index: 10;
+      pointer-events: none;
+      overflow: hidden;
+      height: 40px;
+      background: transparent;
+    }
+    .ramadan-light {
+      width: 12px;
+      position: relative;
+    }
+    .ramadan-light::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 10px;
+      background: #555;
+    }
+    .ramadan-light::after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 14px;
+      border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+      background: hsl(var(--hue), 90%, 60%);
+      box-shadow:
+        0 0 6px 2px hsla(var(--hue), 90%, 60%, 0.6),
+        0 0 12px 4px hsla(var(--hue), 90%, 60%, 0.3);
+      animation: ramadan-glow 2s ease-in-out infinite alternate;
+      animation-delay: var(--delay);
+    }
+    @keyframes ramadan-glow {
+      0% {
+        opacity: 0.5;
+        box-shadow:
+          0 0 4px 1px hsla(var(--hue), 90%, 60%, 0.4),
+          0 0 8px 2px hsla(var(--hue), 90%, 60%, 0.2);
+      }
+      100% {
+        opacity: 1;
+        box-shadow:
+          0 0 8px 3px hsla(var(--hue), 90%, 60%, 0.7),
+          0 0 16px 6px hsla(var(--hue), 90%, 60%, 0.4);
+      }
+    }
+    @media (max-width: 749px) {
+      .ramadan-lights {
+        height: 30px;
+      }
+      .ramadan-light::before {
+        height: 7px;
+      }
+      .ramadan-light::after {
+        top: 7px;
+        width: 7px;
+        height: 10px;
+      }
+    }
+  </style>
+
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}static-header{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
