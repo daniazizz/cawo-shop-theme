@@ -676,69 +676,127 @@
 
   <!-- Ramadan Eid Lights -->
   <div class="ramadan-lights" aria-hidden="true">
-    {%- assign light_colors = '#FFD700,#FFC125,#FFB90F,#FF8C00,#FFA500,#FFD700,#FFC125,#FFB90F,#FF8C00,#FFA500,#FFD700,#FFC125,#FFB90F,#FF8C00,#FFA500,#FFD700,#FFC125,#FFB90F,#FF8C00,#FFA500' | split: ',' -%}
-    {%- for i in (1..20) -%}
-      {%- assign color_index = i | minus: 1 -%}
-      {%- assign bulb_color = light_colors[color_index] -%}
-      {%- assign delay = i | times: 0.15 -%}
-      <div class="ramadan-light" style="animation-delay: {{ delay }}s;">
-        <span class="ramadan-wire"></span>
-        <span class="ramadan-bulb" style="background: {{ bulb_color }}; box-shadow: 0 0 6px 2px {{ bulb_color }}80, 0 0 12px 4px {{ bulb_color }}40;"></span>
-      </div>
-    {%- endfor -%}
+    <svg class="ramadan-wire-svg" viewBox="0 0 1000 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,2 Q50,18 100,6 Q150,18 200,6 Q250,18 300,6 Q350,18 400,6 Q450,18 500,6 Q550,18 600,6 Q650,18 700,6 Q750,18 800,6 Q850,18 900,6 Q950,18 1000,2" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    </svg>
+    <div class="ramadan-lights-row">
+      {%- assign colors = '#E8B931,#D4881E,#C75B2A,#1B7A4D,#E8B931,#C75B2A,#1B7A4D,#D4881E,#E8B931,#C75B2A,#1B7A4D,#D4881E,#E8B931,#D4881E,#C75B2A,#1B7A4D,#E8B931,#C75B2A,#D4881E,#1B7A4D,#E8B931,#C75B2A,#D4881E,#1B7A4D,#E8B931' | split: ',' -%}
+      {%- assign drops = '12,16,14,18,13,17,15,12,16,14,18,13,17,15,12,16,14,18,13,17,15,12,16,14,18' | split: ',' -%}
+      {%- for i in (1..25) -%}
+        {%- assign idx = i | minus: 1 -%}
+        {%- assign c = colors[idx] -%}
+        {%- assign d = drops[idx] -%}
+        {%- assign del = i | times: 0.2 | plus: 0.1 -%}
+        <div class="rl" style="--drop: {{ d }}px; --c: {{ c }}; --del: {{ del }}s;">
+          <span class="rl-string"></span>
+          <span class="rl-cap"></span>
+          <span class="rl-body">
+            <span class="rl-shine"></span>
+          </span>
+          <span class="rl-glow"></span>
+        </div>
+      {%- endfor -%}
+    </div>
   </div>
   <style>
     .ramadan-lights {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      padding: 0;
-      margin: 0;
       position: relative;
-      z-index: 10;
+      width: 100%;
+      height: 44px;
       pointer-events: none;
-      height: 32px;
+      z-index: 10;
+      overflow: visible;
     }
-    .ramadan-light {
+    .ramadan-wire-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 16px;
+    }
+    .ramadan-lights-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      padding: 0 8px;
+    }
+    .rl {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 14px;
-      animation: ramadan-swing 3s ease-in-out infinite alternate;
+      padding-top: var(--drop, 14px);
+      transform-origin: top center;
+      animation: rl-sway 4s ease-in-out infinite alternate;
+      animation-delay: var(--del);
     }
-    .ramadan-wire {
+    .rl-string {
       display: block;
-      width: 1.5px;
-      height: 8px;
-      background: #888;
+      width: 1px;
+      height: 6px;
+      background: rgba(255,255,255,0.2);
     }
-    .ramadan-bulb {
+    .rl-cap {
       display: block;
-      width: 9px;
-      height: 12px;
-      border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-      animation: ramadan-glow 2s ease-in-out infinite alternate;
-      animation-delay: inherit;
+      width: 6px;
+      height: 3px;
+      background: rgba(255,255,255,0.25);
+      border-radius: 1px 1px 0 0;
     }
-    @keyframes ramadan-glow {
-      0% { opacity: 0.45; }
-      100% { opacity: 1; }
+    .rl-body {
+      position: relative;
+      display: block;
+      width: 8px;
+      height: 13px;
+      border-radius: 3px 3px 50% 50%;
+      background: var(--c);
+      opacity: 0.9;
+      animation: rl-flicker 2.5s ease-in-out infinite alternate;
+      animation-delay: var(--del);
     }
-    @keyframes ramadan-swing {
-      0% { transform: rotate(-3deg); }
-      100% { transform: rotate(3deg); }
+    .rl-shine {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 3px;
+      height: 5px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+    }
+    .rl-glow {
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--c) 0%, transparent 70%);
+      opacity: 0.35;
+      filter: blur(3px);
+      animation: rl-glow-pulse 2.5s ease-in-out infinite alternate;
+      animation-delay: var(--del);
+    }
+    @keyframes rl-sway {
+      0% { transform: rotate(-2deg); }
+      100% { transform: rotate(2deg); }
+    }
+    @keyframes rl-flicker {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; }
+    }
+    @keyframes rl-glow-pulse {
+      0% { opacity: 0.2; transform: translateX(-50%) scale(0.85); }
+      100% { opacity: 0.45; transform: translateX(-50%) scale(1.1); }
     }
     @media (max-width: 749px) {
-      .ramadan-lights {
-        height: 24px;
-      }
-      .ramadan-wire {
-        height: 5px;
-      }
-      .ramadan-bulb {
-        width: 7px;
-        height: 9px;
-      }
+      .ramadan-lights { height: 34px; }
+      .rl-body { width: 6px; height: 10px; }
+      .rl-cap { width: 5px; height: 2px; }
+      .rl-shine { width: 2px; height: 3px; }
+      .rl-glow { width: 12px; height: 12px; }
+      .rl-string { height: 4px; }
     }
   </style>
 
