@@ -99,19 +99,15 @@
       "type": "horizontal-products",
       "name": "Horizontal Products",
       "settings": {
-        "title": "Featured Products",
-        "heading_size": "h2",
-        "collection": "shorts",
-        "products_to_show": 12,
-        "show_badge_numbers": true,
-        "show_bestseller_badge": true,
-        "show_rating": true,
+        "title": "",
+        "heading_size": "h3",
+        "collection": "shop-all",
+        "products_to_show": 16,
         "color_scheme": "background-1",
-        "badge_color": "#dd1d1d",
         "custom_colors_background": "#ffffff",
         "custom_colors_text": "#000000",
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "section_divider_LJTd6t": {
@@ -189,7 +185,9 @@
           }
         }
       },
-      "block_order": ["slide_iTiXht"],
+      "block_order": [
+        "slide_iTiXht"
+      ],
       "disabled": true,
       "name": "Slideshow hero",
       "settings": {
@@ -240,7 +238,11 @@
           }
         }
       },
-      "block_order": ["heading_gkDgGp", "text_8HWVzR", "button_aYEjAY"],
+      "block_order": [
+        "heading_gkDgGp",
+        "text_8HWVzR",
+        "button_aYEjAY"
+      ],
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -274,25 +276,6 @@
         "custom_colors_outline_button": "#dd1d1d",
         "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
-      }
-    },
-    "horizontal_products_home": {
-      "type": "horizontal-products",
-      "name": "Horizontal Products",
-      "settings": {
-        "title": "",
-        "heading_size": "h3",
-        "collection": "shop-all",
-        "products_to_show": 16,
-        "show_badge_numbers": true,
-        "show_bestseller_badge": true,
-        "show_rating": true,
-        "color_scheme": "background-1",
-        "badge_color": "#dd1d1d",
-        "custom_colors_background": "#ffffff",
-        "custom_colors_text": "#000000",
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     }
   },
