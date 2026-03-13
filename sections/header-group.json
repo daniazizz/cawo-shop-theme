@@ -1,1 +1,221 @@
-{"name":"t:sections.header.name","type":"header","sections":{"custom_liquid_4LWq67":{"type":"custom-liquid","name":"t:sections.custom-liquid.presets.name","settings":{"display_id":false,"visibility":"always-display","custom_liquid":"<style>\n  .rr_countdown_wrapper {\n    background-color: #000000;\n    padding-top: 12px;\n    padding-bottom: 12px;\n    width: 100%;\n    overflow: hidden;\n    position: relative;\n  }\n  .rr_countdown_container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 0 10px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    text-align: center;\n  }\n  .rr_countdown_text_content {\n    min-width: 0;\n  }\n  .rr_countdown_text_content h2 {\n    color: #ffffff;\n    margin: 0;\n    line-height: 1.1;\n    font-size: 15px;\n    font-weight: 700;\n    letter-spacing: 0.5px;\n  }\n  .rr_countdown_text_content p {\n    color: #ffffff;\n    margin: 2px 0 0 0;\n    font-size: 10px;\n    opacity: 0.9;\n    line-height: 1.2;\n  }\n  .rr_countdown_timer_box {\n    display: flex;\n    align-items: flex-start;\n    gap: 4px;\n    flex-shrink: 0;\n    visibility: hidden;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n  .rr_countdown_timer_box.rr_timer_loaded {\n    visibility: visible;\n    opacity: 1;\n  }\n  .rr_timer_block {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    min-width: 28px;\n  }\n  .rr_time_digit {\n    font-size: 16px;\n    line-height: 1;\n    font-weight: 600;\n    color: #ffffff;\n    font-family: monospace, sans-serif;\n  }\n  .rr_time_label {\n    font-size: 8px;\n    text-transform: capitalize;\n    margin-top: 1px;\n    color: #ffffff;\n    opacity: 0.8;\n  }\n  .rr_timer_separator {\n    font-size: 16px;\n    line-height: 1;\n    color: #ffffff;\n    font-weight: 600;\n    margin-top: -1px;\n  }\n  @media only screen and (min-width: 768px) {\n    .rr_countdown_wrapper {\n      padding-top: 8px;\n      padding-bottom: 8px;\n    }\n    .rr_countdown_container {\n      justify-content: center;\n      gap: 40px;\n      text-align: center;\n      padding: 0 15px;\n    }\n    .rr_countdown_text_content {\n      flex: 0 1 auto;\n    }\n    .rr_countdown_text_content h2 {\n      font-size: 24px;\n    }\n    .rr_countdown_text_content p {\n      font-size: 14px;\n      margin: 5px 0 0 0;\n    }\n    .rr_countdown_timer_box {\n      gap: 10px;\n    }\n    .rr_time_digit {\n      font-size: 24px;\n    }\n    .rr_timer_separator {\n      font-size: 24px;\n    }\n    .rr_time_label {\n      font-size: 12px;\n      margin-top: 2px;\n    }\n    .rr_timer_block {\n      min-width: 40px;\n    }\n  }\n<\/style>\n\n<div class=\"rr_countdown_wrapper\">\n  <div class=\"rr_countdown_container\">\n    <div class=\"rr_countdown_text_content\">\n      <h2>🌙 PROMOTION EID <\/h2>\n      <p>PRIX LE PLUS BAS DE L'ANNÉE<\/p>\n    <\/div>\n    <div class=\"rr_countdown_timer_box\" id=\"rr_timer_container_custom\">\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_hours_custom\">00<\/span>\n        <span class=\"rr_time_label\">Hrs<\/span>\n      <\/div>\n      <span class=\"rr_timer_separator\">:<\/span>\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_mins_custom\">00<\/span>\n        <span class=\"rr_time_label\">Mins<\/span>\n      <\/div>\n      <span class=\"rr_timer_separator\">:<\/span>\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_secs_custom\">00<\/span>\n        <span class=\"rr_time_label\">Secs<\/span>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<script>\n  (function() {\n    var countDownDate = new Date(\"2026-03-15T23:59:00\").getTime();\n\n    var elContainer = document.getElementById(\"rr_timer_container_custom\");\n    var elHours = document.getElementById(\"rr_hours_custom\");\n    var elMins = document.getElementById(\"rr_mins_custom\");\n    var elSecs = document.getElementById(\"rr_secs_custom\");\n\n    var timer = setInterval(function() {\n      var currentTime = new Date().getTime();\n      var distance = countDownDate - currentTime;\n\n      elContainer.classList.add(\"rr_timer_loaded\");\n\n      if (distance < 0) {\n        clearInterval(timer);\n        elHours.innerHTML = \"00\";\n        elMins.innerHTML = \"00\";\n        elSecs.innerHTML = \"00\";\n        return;\n      }\n\n      var totalHours = Math.floor(distance \/ 3600000);\n      var minutes = Math.floor((distance % 3600000) \/ 60000);\n      var seconds = Math.floor((distance % 60000) \/ 1000);\n\n      elHours.innerHTML = totalHours < 10 ? \"0\" + totalHours : totalHours;\n      elMins.innerHTML = minutes < 10 ? \"0\" + minutes : minutes;\n      elSecs.innerHTML = seconds < 10 ? \"0\" + seconds : seconds;\n    }, 1000);\n  })();\n<\/script>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"fe1c8c67-b84c-4466-a515-70df3134c1c0":{"type":"announcement-bar","blocks":{"announcement_xjTXcX":{"type":"announcement","disabled":true,"settings":{"text":"⏳<strong> PROMO FIN D’ANNÉE<\/strong>","text_alignment":"center","mobile_text_size":12,"desktop_text_size":20,"icon":"","filled_icon":false,"mobile_icon_size":20,"desktop_icon_size":26,"desktop_layout":"horizontal","mobile_layout":"horizontal","hidden_products":"","enable_specific_display":false,"displayed_products":""}},"announcement_tCjpJF":{"type":"announcement","disabled":true,"settings":{"text":"🌙 <strong>SOLDES DE RAMADAN<\/strong>","text_alignment":"center","mobile_text_size":12,"desktop_text_size":20,"icon":"","filled_icon":false,"mobile_icon_size":20,"desktop_icon_size":26,"desktop_layout":"horizontal","mobile_layout":"horizontal","hidden_products":"","enable_specific_display":false,"displayed_products":""}},"announcement_KEMCL8":{"type":"announcement","settings":{"text":"🌍 <strong>LA COMMUNAUTÉ CAWO : +2 000 ATHLÈTES<\/strong>","text_alignment":"center","mobile_text_size":12,"desktop_text_size":20,"icon":"","filled_icon":false,"mobile_icon_size":20,"desktop_icon_size":26,"desktop_layout":"horizontal","mobile_layout":"horizontal","hidden_products":"","enable_specific_display":false,"displayed_products":""}},"announcement_QKd4wt":{"type":"announcement","settings":{"text":"✈️ <strong>LIVRAISON OFFERTE DÈS 100 €<\/strong>","text_alignment":"center","mobile_text_size":12,"desktop_text_size":20,"icon":"","filled_icon":false,"mobile_icon_size":20,"desktop_icon_size":26,"desktop_layout":"horizontal","mobile_layout":"horizontal","hidden_products":"","enable_specific_display":false,"displayed_products":""}}},"block_order":["announcement_xjTXcX","announcement_tCjpJF","announcement_KEMCL8","announcement_QKd4wt"],"disabled":true,"settings":{"columns_desktop":1,"columns_mobile":1,"desktop_spacing":28,"mobile_spacing":16,"show_separator":false,"color_scheme":"accent-1","slider_mobile":true,"slider_desktop":true,"type":"loop","autoplay":true,"autoplay_speed":4,"hidden_products":"","enable_specific_display":false,"displayed_products":"","padding_top":14,"padding_bottom":14,"custom_colors_background":"#dd1d1d","custom_gradient_background":"","custom_colors_text":"#ffffff"}},"header":{"type":"header","settings":{"sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","logo_link":"shopify:\/\/collections\/shop-all","logo_position":"middle-center","menu":"main-menu","menu_type_desktop":"drawer","highlight_active_link":true,"highlighted_link_color_scheme":"accent-1","products_mega_menu_links":"","products_mega_menu_display_collection_products":true,"products_mega_menu_display_collection_images":true,"products_mega_menu_display_collection_images_on_mobile":true,"mobile_menu_title":"Menu","mobile_menu_icon":"shopify:\/\/shop_images\/Untitled_design_23.png","mobile_menu_banner_alt":"Menu banner","secondary_menu":"","menu_color_scheme":"background-1","mobile_logo_position":"center","display_search":false,"margin_bottom":0,"padding_top":20,"padding_bottom":20}},"horizontal_ticker_tH6gT6":{"type":"horizontal-ticker","blocks":{"text_Ep9ejf":{"type":"text","settings":{"title":"-50% SUR TOUT"}},"text_3JRUTq":{"type":"text","settings":{"title":"LIVRASON OFFERTE DES 3 ARTILCES"}}},"block_order":["text_Ep9ejf","text_3JRUTq"],"custom_css":[".section-sections--29008781345111__horizontal_ticker_tH6gT6-padding {margin-bottom: 10px;}"],"name":"Horizontal Ticker","settings":{"visibility":"always-display","speed":3,"direction":"normal","stop_on_hover":false,"mobile_spacing":60,"desktop_spacing":100,"color_scheme":"accent-2","mobile_text_size":12,"desktop_text_size":18,"italic_text":false,"uppercase_text":false,"bold_text":true,"mobile_image_height":26,"desktop_image_height":40,"mobile_reviews_width":300,"desktop_reviews_width":400,"hidden_products":"","enable_specific_display":true,"displayed_products":"","mobile_padding_top":12,"mobile_padding_bottom":12,"desktop_padding_top":16,"desktop_padding_bottom":16,"custom_colors_background":"#121212","custom_gradient_background":"","custom_colors_text":"#ffffff"}}},"order":["custom_liquid_4LWq67","fe1c8c67-b84c-4466-a515-70df3134c1c0","header","horizontal_ticker_tH6gT6"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "custom_liquid_4LWq67": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  .rr_countdown_wrapper {\n    background-color: #000000;\n    padding-top: 12px;\n    padding-bottom: 12px;\n    width: 100%;\n    overflow: hidden;\n    position: relative;\n  }\n  .rr_countdown_container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 0 10px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    text-align: center;\n  }\n  .rr_countdown_text_content {\n    min-width: 0;\n  }\n  .rr_countdown_text_content h2 {\n    color: #ffffff;\n    margin: 0;\n    line-height: 1.1;\n    font-size: 15px;\n    font-weight: 700;\n    letter-spacing: 0.5px;\n  }\n  .rr_countdown_text_content p {\n    color: #ffffff;\n    margin: 2px 0 0 0;\n    font-size: 10px;\n    opacity: 0.9;\n    line-height: 1.2;\n  }\n  .rr_countdown_timer_box {\n    display: flex;\n    align-items: flex-start;\n    gap: 4px;\n    flex-shrink: 0;\n    visibility: hidden;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n  .rr_countdown_timer_box.rr_timer_loaded {\n    visibility: visible;\n    opacity: 1;\n  }\n  .rr_timer_block {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    min-width: 28px;\n  }\n  .rr_time_digit {\n    font-size: 16px;\n    line-height: 1;\n    font-weight: 600;\n    color: #ffffff;\n    font-family: monospace, sans-serif;\n  }\n  .rr_time_label {\n    font-size: 8px;\n    text-transform: capitalize;\n    margin-top: 1px;\n    color: #ffffff;\n    opacity: 0.8;\n  }\n  .rr_timer_separator {\n    font-size: 16px;\n    line-height: 1;\n    color: #ffffff;\n    font-weight: 600;\n    margin-top: -1px;\n  }\n  @media only screen and (min-width: 768px) {\n    .rr_countdown_wrapper {\n      padding-top: 8px;\n      padding-bottom: 8px;\n    }\n    .rr_countdown_container {\n      justify-content: center;\n      gap: 40px;\n      text-align: center;\n      padding: 0 15px;\n    }\n    .rr_countdown_text_content {\n      flex: 0 1 auto;\n    }\n    .rr_countdown_text_content h2 {\n      font-size: 24px;\n    }\n    .rr_countdown_text_content p {\n      font-size: 14px;\n      margin: 5px 0 0 0;\n    }\n    .rr_countdown_timer_box {\n      gap: 10px;\n    }\n    .rr_time_digit {\n      font-size: 24px;\n    }\n    .rr_timer_separator {\n      font-size: 24px;\n    }\n    .rr_time_label {\n      font-size: 12px;\n      margin-top: 2px;\n    }\n    .rr_timer_block {\n      min-width: 40px;\n    }\n  }\n</style>\n\n<div class=\"rr_countdown_wrapper\">\n  <div class=\"rr_countdown_container\">\n    <div class=\"rr_countdown_text_content\">\n      <h2>🌙 PROMOTION EID </h2>\n      <p>PRIX LE PLUS BAS DE L'ANNÉE</p>\n    </div>\n    <div class=\"rr_countdown_timer_box\" id=\"rr_timer_container_custom\">\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_hours_custom\">00</span>\n        <span class=\"rr_time_label\">Hrs</span>\n      </div>\n      <span class=\"rr_timer_separator\">:</span>\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_mins_custom\">00</span>\n        <span class=\"rr_time_label\">Mins</span>\n      </div>\n      <span class=\"rr_timer_separator\">:</span>\n      <div class=\"rr_timer_block\">\n        <span class=\"rr_time_digit\" id=\"rr_secs_custom\">00</span>\n        <span class=\"rr_time_label\">Secs</span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  (function() {\n    var countDownDate = new Date(\"2026-03-15T23:59:00\").getTime();\n\n    var elContainer = document.getElementById(\"rr_timer_container_custom\");\n    var elHours = document.getElementById(\"rr_hours_custom\");\n    var elMins = document.getElementById(\"rr_mins_custom\");\n    var elSecs = document.getElementById(\"rr_secs_custom\");\n\n    var timer = setInterval(function() {\n      var currentTime = new Date().getTime();\n      var distance = countDownDate - currentTime;\n\n      elContainer.classList.add(\"rr_timer_loaded\");\n\n      if (distance < 0) {\n        clearInterval(timer);\n        elHours.innerHTML = \"00\";\n        elMins.innerHTML = \"00\";\n        elSecs.innerHTML = \"00\";\n        return;\n      }\n\n      var totalHours = Math.floor(distance / 3600000);\n      var minutes = Math.floor((distance % 3600000) / 60000);\n      var seconds = Math.floor((distance % 60000) / 1000);\n\n      elHours.innerHTML = totalHours < 10 ? \"0\" + totalHours : totalHours;\n      elMins.innerHTML = minutes < 10 ? \"0\" + minutes : minutes;\n      elSecs.innerHTML = seconds < 10 ? \"0\" + seconds : seconds;\n    }, 1000);\n  })();\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fe1c8c67-b84c-4466-a515-70df3134c1c0": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_xjTXcX": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "⏳<strong> PROMO FIN D’ANNÉE</strong>",
+            "text_alignment": "center",
+            "mobile_text_size": 12,
+            "desktop_text_size": 20,
+            "icon": "",
+            "filled_icon": false,
+            "mobile_icon_size": 20,
+            "desktop_icon_size": 26,
+            "desktop_layout": "horizontal",
+            "mobile_layout": "horizontal",
+            "hidden_products": "",
+            "enable_specific_display": false,
+            "displayed_products": ""
+          }
+        },
+        "announcement_tCjpJF": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "🌙 <strong>SOLDES DE RAMADAN</strong>",
+            "text_alignment": "center",
+            "mobile_text_size": 12,
+            "desktop_text_size": 20,
+            "icon": "",
+            "filled_icon": false,
+            "mobile_icon_size": 20,
+            "desktop_icon_size": 26,
+            "desktop_layout": "horizontal",
+            "mobile_layout": "horizontal",
+            "hidden_products": "",
+            "enable_specific_display": false,
+            "displayed_products": ""
+          }
+        },
+        "announcement_KEMCL8": {
+          "type": "announcement",
+          "settings": {
+            "text": "🌍 <strong>LA COMMUNAUTÉ CAWO : +2 000 ATHLÈTES</strong>",
+            "text_alignment": "center",
+            "mobile_text_size": 12,
+            "desktop_text_size": 20,
+            "icon": "",
+            "filled_icon": false,
+            "mobile_icon_size": 20,
+            "desktop_icon_size": 26,
+            "desktop_layout": "horizontal",
+            "mobile_layout": "horizontal",
+            "hidden_products": "",
+            "enable_specific_display": false,
+            "displayed_products": ""
+          }
+        },
+        "announcement_QKd4wt": {
+          "type": "announcement",
+          "settings": {
+            "text": "✈️ <strong>LIVRAISON OFFERTE DÈS 100 €</strong>",
+            "text_alignment": "center",
+            "mobile_text_size": 12,
+            "desktop_text_size": 20,
+            "icon": "",
+            "filled_icon": false,
+            "mobile_icon_size": 20,
+            "desktop_icon_size": 26,
+            "desktop_layout": "horizontal",
+            "mobile_layout": "horizontal",
+            "hidden_products": "",
+            "enable_specific_display": false,
+            "displayed_products": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_xjTXcX",
+        "announcement_tCjpJF",
+        "announcement_KEMCL8",
+        "announcement_QKd4wt"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 1,
+        "columns_mobile": 1,
+        "desktop_spacing": 28,
+        "mobile_spacing": 16,
+        "show_separator": false,
+        "color_scheme": "accent-1",
+        "slider_mobile": true,
+        "slider_desktop": true,
+        "type": "loop",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "padding_top": 14,
+        "padding_bottom": 14,
+        "custom_colors_background": "#dd1d1d",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "logo_link": "shopify://collections/shop-all",
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "drawer",
+        "highlight_active_link": true,
+        "highlighted_link_color_scheme": "accent-1",
+        "products_mega_menu_links": "",
+        "products_mega_menu_display_collection_products": true,
+        "products_mega_menu_display_collection_images": true,
+        "products_mega_menu_display_collection_images_on_mobile": true,
+        "mobile_menu_title": "Menu",
+        "mobile_menu_icon": "shopify://shop_images/Untitled_design_23.png",
+        "mobile_menu_banner_alt": "Menu banner",
+        "secondary_menu": "",
+        "menu_color_scheme": "background-1",
+        "mobile_logo_position": "center",
+        "display_search": false,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "horizontal_ticker_tH6gT6": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "text_Ep9ejf": {
+          "type": "text",
+          "settings": {
+            "title": "-50% SUR TOUT"
+          }
+        },
+        "text_3JRUTq": {
+          "type": "text",
+          "settings": {
+            "title": "LIVRAISON OFFERTE DES 3 ARTILCES"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ep9ejf",
+        "text_3JRUTq"
+      ],
+      "custom_css": [
+        ".section-sections--29008781345111__horizontal_ticker_tH6gT6-padding {margin-bottom: 10px;}"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "accent-2",
+        "mobile_text_size": 12,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": true,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": true,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#121212",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_4LWq67",
+    "fe1c8c67-b84c-4466-a515-70df3134c1c0",
+    "header",
+    "horizontal_ticker_tH6gT6"
+  ]
+}
