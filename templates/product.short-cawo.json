@@ -970,11 +970,7 @@
           }
         }
       },
-      "block_order": [
-        "column_QcDYX3",
-        "column_4BhUQ3",
-        "column_i3XeRC"
-      ],
+      "block_order": ["column_QcDYX3", "column_4BhUQ3", "column_i3XeRC"],
       "settings": {
         "display_id": false,
         "visibility": "always-display",

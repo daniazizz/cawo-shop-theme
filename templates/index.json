@@ -189,9 +189,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_iTiXht"
-      ],
+      "block_order": ["slide_iTiXht"],
       "disabled": true,
       "name": "Slideshow hero",
       "settings": {
@@ -242,11 +240,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_gkDgGp",
-        "text_8HWVzR",
-        "button_aYEjAY"
-      ],
+      "block_order": ["heading_gkDgGp", "text_8HWVzR", "button_aYEjAY"],
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
