@@ -101,7 +101,7 @@
       "settings": {
         "title": "Featured Products",
         "heading_size": "h2",
-        "collection": "shop-all",
+        "collection": "shorts",
         "products_to_show": 12,
         "show_badge_numbers": true,
         "show_bestseller_badge": true,
