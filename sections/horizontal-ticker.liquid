@@ -55,6 +55,9 @@
 
 {% liquid
   assign displayed = true
+  if request.page_type == 'collection'
+    assign displayed = false
+  endif
   if section.settings.hidden_products != blank
     assign hidden_handles = section.settings.hidden_products | split: ','
     for hidden_handle in hidden_handles
