@@ -15,7 +15,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https://cdn.shopify.com/s/files/1/0903/9351/0231/files/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0903/9351/0231/files/Group_502_3.png?v=1747952501\" \n    alt=\"CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n  \n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n  \n    \n\n    <h2 style=\"font-size: 5.2vw; margin: 1vw 0 2.5vw; color: white; line-height: 1.1; font-family: 'Monument Extended', sans-serif; font-weight: 900;\">\n      Découvrez les shorts CAWO\n    </h2>\n  \n    <a href=\"https://cawoofficial.com/collections/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        VOIR LES SHORTS ›\n      </span>\n    </a>\n\n  </div>\n</div>",
+        "custom_liquid": "<style>\n  @font-face {\n    font-family: 'Monument Extended';\n    src: url('https://cdn.shopify.com/s/files/1/0903/9351/0231/files/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');\n    font-weight: 900;\n    font-style: normal;\n  }\n</style>\n\n<div style=\"position: relative; width: 100%; max-width: 100vw; overflow: hidden;\">\n  \n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0903/9351/0231/files/Group_502_3.png?v=1747952501\" \n    alt=\"Promotion Eid CAWO Shorts\" \n    style=\"width: 100%; height: auto; display: block;\"\n  >\n\n  <div style=\"\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    text-transform: uppercase;\n    width: 90%;\n  \">\n\n    <div style=\"\n      font-size: 2.2vw;\n      color: white;\n      letter-spacing: 0.15em;\n      margin-bottom: 1vw;\n      font-family: 'Monument Extended', sans-serif;\n    \">\n      🌙 PROMOTION EID\n    </div>\n\n    <h2 style=\"\n      font-size: 5.2vw;\n      margin: 1vw 0 2vw;\n      color: white;\n      line-height: 1.1;\n      font-family: 'Monument Extended', sans-serif;\n      font-weight: 900;\n    \">\n      PRIX LE PLUS BAS<br>DE L'ANNÉE\n    </h2>\n\n    <div style=\"\n      font-size: 2.4vw;\n      color: white;\n      margin-bottom: 2.5vw;\n      font-family: 'Monument Extended', sans-serif;\n    \">\n      Shorts CAWO en promotion\n    </div>\n\n    <a href=\"https://cawoofficial.com/collections/shop-all\" style=\"\n      display: inline-block;\n      background: white;\n      color: black;\n      font-weight: 900;\n      font-size: 2.8vw;\n      padding: 1.6vw 4.2vw;\n      text-decoration: none;\n      transform: skew(-15deg);\n      border: none;\n      font-family: 'Monument Extended', sans-serif;\n      text-transform: uppercase;\n    \">\n      <span style=\"display: inline-block; transform: skew(15deg);\">\n        PROFITER DE L’OFFRE ›\n      </span>\n    </a>\n\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -102,7 +102,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -148,9 +148,9 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
