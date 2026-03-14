@@ -97,7 +97,7 @@
           "settings": {
             "text_style": "body",
             "inventory_threshold": 100,
-            "show_inventory_quantity": false,
+            "show_inventory_quantity": true,
             "margin_top": 15,
             "margin_bottom": 15
           }
