@@ -96,6 +96,7 @@
     },
     "section_divider_LJTd6t": {
       "type": "section-divider",
+      "disabled": true,
       "name": "Section divider",
       "settings": {
         "visibility": "always-display",
@@ -112,6 +113,7 @@
     },
     "section_divider_F7KY8j": {
       "type": "section-divider",
+      "disabled": true,
       "name": "Section divider",
       "settings": {
         "visibility": "always-display",
