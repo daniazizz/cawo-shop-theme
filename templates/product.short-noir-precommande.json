@@ -59,12 +59,19 @@
         },
         "inventory_RQdyL3": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "text_style": "body",
             "inventory_threshold": 100,
             "show_inventory_quantity": true,
             "margin_top": 6,
             "margin_bottom": 0
+          }
+        },
+        "custom_liquid_b74pWB": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"\n  background: #1a1a1a;\n  color: #fff;\n  border-radius: 6px;\n  padding: 8px 14px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: 'Arial', sans-serif;\n  font-size: 12px;\n  line-height: 1.4;\n  margin: 8px 0;\n\">\n  <span style=\"font-size: 20px; flex-shrink: 0;\">🌙</span>\n  <div>\n    <p style=\"margin: 0; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 11px; color: #f5c518;\">\n      ⚡ Rupture de stock — Précommande ouverte\n    </p>\n    <p style=\"margin: 2px 0 0; font-size: 11px; color: #ccc;\">\n      Profitez de <strong style=\"color: #fff;\">-50% Promotion EID</strong> 🌙 · Livraison prévue dans 4-5 semaines\n    </p>\n  </div>\n</div>"
           }
         },
         "sizing_chart_K9AAbd": {
@@ -169,6 +176,7 @@
         "title",
         "custom_liquid_fkAi8i",
         "inventory_RQdyL3",
+        "custom_liquid_b74pWB",
         "sizing_chart_K9AAbd",
         "buy_buttons",
         "custom_liquid_Aa6FAx",
