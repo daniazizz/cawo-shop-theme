@@ -9,22 +9,24 @@
   .hero-banner-{{ section.id }} {
     position: relative;
     width: 100%;
-    max-width: 100vw;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: {{ section.settings.min_height_mobile }}vw;
+    padding: {{ section.settings.section_padding_mobile }}vw;
   }
   .hero-banner-{{ section.id }} .hero-banner__image {
-    width: 100%;
-    height: auto;
-    display: block;
+    display: none;
   }
   .hero-banner-{{ section.id }} .hero-banner__overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-transform: uppercase;
-    width: 90%;
+    width: 100%;
+    max-width: {{ section.settings.content_max_width }}%;
   }
   .hero-banner-{{ section.id }} .hero-banner__pretitle {
     font-size: {{ section.settings.pretitle_size_mobile | divided_by: 10.0 }}vw;
@@ -70,6 +72,10 @@
   }
 
   @media only screen and (min-width: 768px) {
+    .hero-banner-{{ section.id }} {
+      min-height: {{ section.settings.min_height_desktop }}vw;
+      padding: {{ section.settings.section_padding_desktop }}vw;
+    }
     .hero-banner-{{ section.id }} .hero-banner__pretitle {
       font-size: {{ section.settings.pretitle_size_desktop | divided_by: 10.0 }}vw;
     }
@@ -101,20 +107,11 @@
   {% endunless %}
 {%- endstyle -%}
 
-<div class="hero-banner-{{ section.id }}">
+<div class="hero-banner-{{ section.id }}"
   {% if section.settings.image != blank %}
-    <img
-      class="hero-banner__image"
-      src="{{ section.settings.image | image_url: width: 1920 }}"
-      alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
-      loading="lazy"
-      width="{{ section.settings.image.width }}"
-      height="{{ section.settings.image.height }}"
-    >
-  {% else %}
-    {{ 'lifestyle-1' | placeholder_svg_tag: 'hero-banner__image' }}
+    style="background-image: url('{{ section.settings.image | image_url: width: 1920 }}');"
   {% endif %}
-
+>
   <div class="hero-banner__overlay">
     {% if section.settings.pretitle != blank %}
       <div class="hero-banner__pretitle">{{ section.settings.pretitle }}</div>
@@ -292,7 +289,52 @@
     },
     {
       "type": "header",
-      "content": "Spacing (vw)"
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "min_height_mobile",
+      "min": 30,
+      "max": 100,
+      "step": 1,
+      "default": 60,
+      "label": "Min height — mobile (vw)"
+    },
+    {
+      "type": "range",
+      "id": "min_height_desktop",
+      "min": 15,
+      "max": 50,
+      "step": 1,
+      "default": 30,
+      "label": "Min height — desktop (vw)"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_mobile",
+      "min": 2,
+      "max": 15,
+      "step": 1,
+      "default": 6,
+      "label": "Overall padding — mobile (vw)"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_desktop",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3,
+      "label": "Overall padding — desktop (vw)"
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 50,
+      "max": 100,
+      "step": 1,
+      "default": 90,
+      "label": "Content max width (%)"
     },
     {
       "type": "range",
