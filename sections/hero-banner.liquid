@@ -19,30 +19,9 @@
     justify-content: center;
     padding: {{ section.settings.spacing | times: 1.5 }}vw;
   }
-  .hero-banner-{{ section.id }} .hero-banner__darken {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    opacity: calc(var(--overlay-opacity) / 100);
-    pointer-events: none;
-    z-index: 1;
-  }
-  .hero-banner-{{ section.id }} .hero-banner__vignette {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: inset 0 0 var(--vignette-size) rgba(0, 0, 0, 0.7);
-    pointer-events: none;
-    z-index: 2;
-  }
   .hero-banner-{{ section.id }} .hero-banner__overlay {
     position: relative;
-    z-index: 3;
+    z-index: 1;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
@@ -109,10 +88,8 @@
 {%- endstyle -%}
 
 <div class="hero-banner-{{ section.id }}"
-  style="{% if section.settings.image != blank %}background-image: url('{{ section.settings.image | image_url: width: 1920 }}');{% endif %}--overlay-opacity: {{ section.settings.overlay_opacity }};--vignette-size: {{ section.settings.vignette_strength }}vw;"
+  style="{% if section.settings.image != blank %}background-image: url('{{ section.settings.image | image_url: width: 1920 }}');{% endif %}"
 >
-  <div class="hero-banner__darken"></div>
-  <div class="hero-banner__vignette"></div>
   <div class="hero-banner__overlay">
     {% if section.settings.pretitle != blank %}
       <div class="hero-banner__pretitle">{{ section.settings.pretitle }}</div>
@@ -229,26 +206,6 @@
       "default": 4,
       "label": "Spacing",
       "info": "Controls padding and gaps between elements"
-    },
-    {
-      "type": "range",
-      "id": "overlay_opacity",
-      "min": 0,
-      "max": 80,
-      "step": 5,
-      "default": 20,
-      "label": "Image darkening",
-      "info": "0 = no darkening, higher = darker overlay"
-    },
-    {
-      "type": "range",
-      "id": "vignette_strength",
-      "min": 0,
-      "max": 30,
-      "step": 1,
-      "default": 0,
-      "label": "Vignette",
-      "info": "0 = off, higher = stronger dark edge shadow"
     },
     {
       "type": "header",
