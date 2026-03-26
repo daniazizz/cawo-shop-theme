@@ -55,7 +55,7 @@
 
 {% liquid
   assign displayed = true
-  if request.page_type == 'collection'
+  if section.settings.hide_on_collection and request.page_type == 'collection'
     assign displayed = false
   endif
   if section.settings.hidden_products != blank
@@ -359,6 +359,12 @@
     {
       "type": "header",
       "content": "Visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_collection",
+      "label": "Hide on collection pages",
+      "default": true
     },
     {
       "type": "paragraph",
