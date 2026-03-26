@@ -27,14 +27,14 @@
     width: 90%;
   }
   .hero-banner-{{ section.id }} .hero-banner__pretitle {
-    font-size: {{ section.settings.pretitle_size_mobile }}vw;
+    font-size: {{ section.settings.pretitle_size_mobile | divided_by: 10.0 }}vw;
     color: {{ section.settings.text_color }};
     letter-spacing: 0.15em;
     margin-bottom: 1vw;
     font-family: 'Monument Extended', sans-serif;
   }
   .hero-banner-{{ section.id }} .hero-banner__heading {
-    font-size: {{ section.settings.heading_size_mobile }}vw;
+    font-size: {{ section.settings.heading_size_mobile | divided_by: 10.0 }}vw;
     margin: 1vw 0 2vw;
     color: {{ section.settings.text_color }};
     line-height: 1.1;
@@ -42,7 +42,7 @@
     font-weight: 900;
   }
   .hero-banner-{{ section.id }} .hero-banner__subtitle {
-    font-size: {{ section.settings.subtitle_size_mobile }}vw;
+    font-size: {{ section.settings.subtitle_size_mobile | divided_by: 10.0 }}vw;
     color: {{ section.settings.text_color }};
     margin-bottom: 2.5vw;
     font-family: 'Monument Extended', sans-serif;
@@ -52,7 +52,7 @@
     background: {{ section.settings.button_background }};
     color: {{ section.settings.button_text_color }};
     font-weight: 900;
-    font-size: {{ section.settings.button_size_mobile }}vw;
+    font-size: {{ section.settings.button_size_mobile | divided_by: 10.0 }}vw;
     padding: 1.6vw 4.2vw;
     text-decoration: none;
     transform: skew(-15deg);
@@ -71,16 +71,16 @@
 
   @media only screen and (min-width: 768px) {
     .hero-banner-{{ section.id }} .hero-banner__pretitle {
-      font-size: {{ section.settings.pretitle_size_desktop }}vw;
+      font-size: {{ section.settings.pretitle_size_desktop | divided_by: 10.0 }}vw;
     }
     .hero-banner-{{ section.id }} .hero-banner__heading {
-      font-size: {{ section.settings.heading_size_desktop }}vw;
+      font-size: {{ section.settings.heading_size_desktop | divided_by: 10.0 }}vw;
     }
     .hero-banner-{{ section.id }} .hero-banner__subtitle {
-      font-size: {{ section.settings.subtitle_size_desktop }}vw;
+      font-size: {{ section.settings.subtitle_size_desktop | divided_by: 10.0 }}vw;
     }
     .hero-banner-{{ section.id }} .hero-banner__button {
-      font-size: {{ section.settings.button_size_desktop }}vw;
+      font-size: {{ section.settings.button_size_desktop | divided_by: 10.0 }}vw;
     }
   }
 
@@ -212,82 +212,82 @@
     },
     {
       "type": "header",
-      "content": "Font Sizes — Mobile (vw)"
+      "content": "Font Sizes — Mobile"
     },
     {
       "type": "range",
       "id": "pretitle_size_mobile",
-      "min": 1,
-      "max": 8,
-      "step": 0.1,
-      "default": 3.5,
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 35,
       "label": "Pre-title size (mobile)"
     },
     {
       "type": "range",
       "id": "heading_size_mobile",
-      "min": 2,
-      "max": 14,
-      "step": 0.1,
-      "default": 7,
+      "min": 20,
+      "max": 140,
+      "step": 1,
+      "default": 70,
       "label": "Heading size (mobile)"
     },
     {
       "type": "range",
       "id": "subtitle_size_mobile",
-      "min": 1,
-      "max": 8,
-      "step": 0.1,
-      "default": 3.5,
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 35,
       "label": "Subtitle size (mobile)"
     },
     {
       "type": "range",
       "id": "button_size_mobile",
-      "min": 1,
-      "max": 8,
-      "step": 0.1,
-      "default": 3.5,
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 35,
       "label": "Button size (mobile)"
     },
     {
       "type": "header",
-      "content": "Font Sizes — Desktop (vw)"
+      "content": "Font Sizes — Desktop"
     },
     {
       "type": "range",
       "id": "pretitle_size_desktop",
-      "min": 0.5,
-      "max": 6,
-      "step": 0.1,
-      "default": 2.2,
+      "min": 5,
+      "max": 60,
+      "step": 1,
+      "default": 22,
       "label": "Pre-title size (desktop)"
     },
     {
       "type": "range",
       "id": "heading_size_desktop",
-      "min": 1,
-      "max": 10,
-      "step": 0.1,
-      "default": 5.2,
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "default": 52,
       "label": "Heading size (desktop)"
     },
     {
       "type": "range",
       "id": "subtitle_size_desktop",
-      "min": 0.5,
-      "max": 6,
-      "step": 0.1,
-      "default": 2.4,
+      "min": 5,
+      "max": 60,
+      "step": 1,
+      "default": 24,
       "label": "Subtitle size (desktop)"
     },
     {
       "type": "range",
       "id": "button_size_desktop",
-      "min": 0.5,
-      "max": 6,
-      "step": 0.1,
-      "default": 2.8,
+      "min": 5,
+      "max": 60,
+      "step": 1,
+      "default": 28,
       "label": "Button size (desktop)"
     },
     {
