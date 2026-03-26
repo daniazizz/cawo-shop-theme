@@ -57,21 +57,11 @@
             "custom_liquid": "<p class=\"text-md text-gray-600\">Couverture Optimale pour Votre Awra</p>"
           }
         },
-        "inventory_RQdyL3": {
-          "type": "inventory",
-          "disabled": true,
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 100,
-            "show_inventory_quantity": true,
-            "margin_top": 6,
-            "margin_bottom": 0
-          }
-        },
-        "custom_liquid_b74pWB": {
+        "custom_liquid_GbpnYM": {
           "type": "custom_liquid",
+          "name": "PRECOM",
           "settings": {
-            "custom_liquid": "<div style=\"\n  background: #1a1a1a;\n  color: #fff;\n  border-radius: 6px;\n  padding: 8px 14px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: 'Monument Extended', 'Arial Black', Arial, sans-serif;\n  font-size: 12px;\n  line-height: 1.4;\n  margin: 8px 0;\n\">\n  <span style=\"font-size: 20px; flex-shrink: 0;\">🌙</span>\n  <div>\n    <p style=\"margin: 0; font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; font-size: 10px; color: #f5c518;\">\n      ⚡ Rupture de stock — Précommande ouverte\n    </p>\n    <p style=\"margin: 2px 0 0; font-size: 10px; color: #ccc;\">\n      Profitez de <strong style=\"color: #fff; font-weight: 900;\">-50% Promotion EID</strong> · Livraison prévue dans 4-5 semaines\n    </p>\n    <p style=\"margin: 4px 0 0; font-size: 10px; color: #f5c518; font-weight: 700;\">\n      ❓ Vérifiez les autres coloris, votre taille est peut-être toujours disponible !\n    </p>\n  </div>\n</div>"
+            "custom_liquid": "<div style=\"\n  background: #1a1a1a;\n  color: #fff;\n  border-radius: 6px;\n  padding: 8px 14px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: 'Monument Extended', 'Arial Black', Arial, sans-serif;\n  font-size: 13px;\n  line-height: 1.4;\n  margin: 8px 0;\n\">\n  <div>\n    <p style=\"margin: 0; font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; font-size: 12px; color: #f5c518;\">\n      ⚡ Rupture de stock — Précommande ouverte\n    </p>\n    <p style=\"margin: 2px 0 0; font-size: 11px; color: #ccc;\">\n      Profitez de <strong style=\"color: #f5c518; font-weight: 900;\">-30% maintenant</strong> · Expédition le 07/04 - 15/04\n    </p>\n    <p style=\"margin: 4px 0 0; font-size: 11px; color: #f5c518; font-weight: 700;\">\n      ❓ Vérifiez les autres coloris, votre taille est peut-être toujours disponible !\n    </p>\n  </div>\n</div>"
           }
         },
         "sizing_chart_K9AAbd": {
@@ -175,8 +165,7 @@
         "trustoo_io_reviews_star_rating_widget_x39UjP",
         "title",
         "custom_liquid_fkAi8i",
-        "inventory_RQdyL3",
-        "custom_liquid_b74pWB",
+        "custom_liquid_GbpnYM",
         "sizing_chart_K9AAbd",
         "buy_buttons",
         "custom_liquid_Aa6FAx",
