@@ -1,0 +1,316 @@
+{%- style -%}
+  @font-face {
+    font-family: 'Monument Extended';
+    src: url('https://cdn.shopify.com/s/files/1/0903/9351/0231/files/MonumentExtended-Ultrabold.woff2?v=1747952135') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .hero-banner-{{ section.id }} {
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__pretitle {
+    font-size: {{ section.settings.pretitle_size_mobile }}vw;
+    color: {{ section.settings.text_color }};
+    letter-spacing: 0.15em;
+    margin-bottom: 1vw;
+    font-family: 'Monument Extended', sans-serif;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__heading {
+    font-size: {{ section.settings.heading_size_mobile }}vw;
+    margin: 1vw 0 2vw;
+    color: {{ section.settings.text_color }};
+    line-height: 1.1;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__subtitle {
+    font-size: {{ section.settings.subtitle_size_mobile }}vw;
+    color: {{ section.settings.text_color }};
+    margin-bottom: 2.5vw;
+    font-family: 'Monument Extended', sans-serif;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__button {
+    display: inline-block;
+    background: {{ section.settings.button_background }};
+    color: {{ section.settings.button_text_color }};
+    font-weight: 900;
+    font-size: {{ section.settings.button_size_mobile }}vw;
+    padding: 1.6vw 4.2vw;
+    text-decoration: none;
+    transform: skew(-15deg);
+    border: none;
+    font-family: 'Monument Extended', sans-serif;
+    text-transform: uppercase;
+    transition: opacity 0.2s ease;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__button:hover {
+    opacity: 0.85;
+  }
+  .hero-banner-{{ section.id }} .hero-banner__button-text {
+    display: inline-block;
+    transform: skew(15deg);
+  }
+
+  @media only screen and (min-width: 768px) {
+    .hero-banner-{{ section.id }} .hero-banner__pretitle {
+      font-size: {{ section.settings.pretitle_size_desktop }}vw;
+    }
+    .hero-banner-{{ section.id }} .hero-banner__heading {
+      font-size: {{ section.settings.heading_size_desktop }}vw;
+    }
+    .hero-banner-{{ section.id }} .hero-banner__subtitle {
+      font-size: {{ section.settings.subtitle_size_desktop }}vw;
+    }
+    .hero-banner-{{ section.id }} .hero-banner__button {
+      font-size: {{ section.settings.button_size_desktop }}vw;
+    }
+  }
+
+  {% unless section.settings.show_on_desktop %}
+    @media screen and (min-width: 768px) {
+      .hero-banner-{{ section.id }} {
+        display: none !important;
+      }
+    }
+  {% endunless %}
+
+  {% unless section.settings.show_on_mobile %}
+    @media screen and (max-width: 767px) {
+      .hero-banner-{{ section.id }} {
+        display: none !important;
+      }
+    }
+  {% endunless %}
+{%- endstyle -%}
+
+<div class="hero-banner-{{ section.id }}">
+  {% if section.settings.image != blank %}
+    <img
+      class="hero-banner__image"
+      src="{{ section.settings.image | image_url: width: 1920 }}"
+      alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
+      loading="lazy"
+      width="{{ section.settings.image.width }}"
+      height="{{ section.settings.image.height }}"
+    >
+  {% else %}
+    {{ 'lifestyle-1' | placeholder_svg_tag: 'hero-banner__image' }}
+  {% endif %}
+
+  <div class="hero-banner__overlay">
+    {% if section.settings.pretitle != blank %}
+      <div class="hero-banner__pretitle">{{ section.settings.pretitle }}</div>
+    {% endif %}
+
+    {% if section.settings.heading != blank %}
+      <h2 class="hero-banner__heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+
+    {% if section.settings.subtitle != blank %}
+      <div class="hero-banner__subtitle">{{ section.settings.subtitle }}</div>
+    {% endif %}
+
+    {% if section.settings.button_text != blank %}
+      <a href="{{ section.settings.button_link }}" class="hero-banner__button">
+        <span class="hero-banner__button-text">{{ section.settings.button_text }}</span>
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background image"
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "pretitle",
+      "default": "🌙 PROMOTION EID",
+      "label": "Pre-title"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>PRIX LE PLUS BAS<br>DE L'ANNÉE</p>",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "default": "Shorts CAWO en promotion",
+      "label": "Subtitle"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "default": "PROFITER DE L'OFFRE ›",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#ffffff",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "default": "#ffffff",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "default": "#000000",
+      "label": "Button text color"
+    },
+    {
+      "type": "header",
+      "content": "Font Sizes — Mobile (vw)"
+    },
+    {
+      "type": "range",
+      "id": "pretitle_size_mobile",
+      "min": 1,
+      "max": 8,
+      "step": 0.1,
+      "default": 3.5,
+      "label": "Pre-title size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 2,
+      "max": 14,
+      "step": 0.1,
+      "default": 7,
+      "label": "Heading size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size_mobile",
+      "min": 1,
+      "max": 8,
+      "step": 0.1,
+      "default": 3.5,
+      "label": "Subtitle size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "button_size_mobile",
+      "min": 1,
+      "max": 8,
+      "step": 0.1,
+      "default": 3.5,
+      "label": "Button size (mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Font Sizes — Desktop (vw)"
+    },
+    {
+      "type": "range",
+      "id": "pretitle_size_desktop",
+      "min": 0.5,
+      "max": 6,
+      "step": 0.1,
+      "default": 2.2,
+      "label": "Pre-title size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "min": 1,
+      "max": 10,
+      "step": 0.1,
+      "default": 5.2,
+      "label": "Heading size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size_desktop",
+      "min": 0.5,
+      "max": 6,
+      "step": 0.1,
+      "default": 2.4,
+      "label": "Subtitle size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "button_size_desktop",
+      "min": 0.5,
+      "max": 6,
+      "step": 0.1,
+      "default": 2.8,
+      "label": "Button size (desktop)"
+    },
+    {
+      "type": "header",
+      "content": "Visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_desktop",
+      "default": true,
+      "label": "Show on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_mobile",
+      "default": true,
+      "label": "Show on mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner"
+    }
+  ]
+}
+{% endschema %}
