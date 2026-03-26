@@ -1,0 +1,389 @@
+{%- style -%}
+  .rr_countdown_wrapper-{{ section.id }} {
+    background-color: {{ section.settings.background_color }};
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .rr_countdown_container-{{ section.id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .rr_countdown_text_content-{{ section.id }} {
+    min-width: 0;
+  }
+  .rr_countdown_text_content-{{ section.id }} h2 {
+    color: {{ section.settings.text_color }};
+    margin: 0;
+    line-height: 1.1;
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .rr_countdown_text_content-{{ section.id }} p {
+    color: {{ section.settings.text_color }};
+    margin: 2px 0 0 0;
+    font-size: {{ section.settings.subtext_size_mobile }}px;
+    opacity: 0.9;
+    line-height: 1.2;
+  }
+  .rr_countdown_timer_box-{{ section.id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .rr_countdown_timer_box-{{ section.id }}.rr_timer_loaded {
+    visibility: visible;
+    opacity: 1;
+  }
+  .rr_countdown_timer_box-{{ section.id }} .rr_timer_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 28px;
+  }
+  .rr_countdown_timer_box-{{ section.id }} .rr_time_digit {
+    font-size: {{ section.settings.timer_size_mobile }}px;
+    line-height: 1;
+    font-weight: 600;
+    color: {{ section.settings.text_color }};
+    font-family: monospace, sans-serif;
+  }
+  .rr_countdown_timer_box-{{ section.id }} .rr_time_label {
+    font-size: {{ section.settings.timer_label_size_mobile }}px;
+    text-transform: capitalize;
+    margin-top: 1px;
+    color: {{ section.settings.text_color }};
+    opacity: 0.8;
+  }
+  .rr_countdown_timer_box-{{ section.id }} .rr_timer_separator {
+    font-size: {{ section.settings.timer_size_mobile }}px;
+    line-height: 1;
+    color: {{ section.settings.text_color }};
+    font-weight: 600;
+    margin-top: -1px;
+  }
+  @media only screen and (min-width: 768px) {
+    .rr_countdown_wrapper-{{ section.id }} {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .rr_countdown_container-{{ section.id }} {
+      justify-content: center;
+      gap: 40px;
+      text-align: center;
+      padding: 0 15px;
+    }
+    .rr_countdown_text_content-{{ section.id }} {
+      flex: 0 1 auto;
+    }
+    .rr_countdown_text_content-{{ section.id }} h2 {
+      font-size: {{ section.settings.heading_size_desktop }}px;
+    }
+    .rr_countdown_text_content-{{ section.id }} p {
+      font-size: {{ section.settings.subtext_size_desktop }}px;
+      margin: 5px 0 0 0;
+    }
+    .rr_countdown_timer_box-{{ section.id }} {
+      gap: 10px;
+    }
+    .rr_countdown_timer_box-{{ section.id }} .rr_time_digit {
+      font-size: {{ section.settings.timer_size_desktop }}px;
+    }
+    .rr_countdown_timer_box-{{ section.id }} .rr_timer_separator {
+      font-size: {{ section.settings.timer_size_desktop }}px;
+    }
+    .rr_countdown_timer_box-{{ section.id }} .rr_time_label {
+      font-size: {{ section.settings.timer_label_size_desktop }}px;
+      margin-top: 2px;
+    }
+    .rr_countdown_timer_box-{{ section.id }} .rr_timer_block {
+      min-width: 40px;
+    }
+  }
+
+  {% unless section.settings.show_on_desktop %}
+    @media screen and (min-width: 768px) {
+      .rr_countdown_wrapper-{{ section.id }} {
+        display: none !important;
+      }
+    }
+  {% endunless %}
+
+  {% unless section.settings.show_on_mobile %}
+    @media screen and (max-width: 767px) {
+      .rr_countdown_wrapper-{{ section.id }} {
+        display: none !important;
+      }
+    }
+  {% endunless %}
+{%- endstyle -%}
+
+<div class="rr_countdown_wrapper-{{ section.id }}">
+  <div class="rr_countdown_container-{{ section.id }}">
+    <div class="rr_countdown_text_content-{{ section.id }}">
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+      {% if section.settings.subtext != blank %}
+        <p>{{ section.settings.subtext }}</p>
+      {% endif %}
+    </div>
+    {% if section.settings.show_timer %}
+      <div class="rr_countdown_timer_box-{{ section.id }}" id="rr_timer_container_{{ section.id }}">
+        <div class="rr_timer_block">
+          <span class="rr_time_digit" id="rr_hours_{{ section.id }}">00</span>
+          <span class="rr_time_label">{{ section.settings.hours_label }}</span>
+        </div>
+        <span class="rr_timer_separator">:</span>
+        <div class="rr_timer_block">
+          <span class="rr_time_digit" id="rr_mins_{{ section.id }}">00</span>
+          <span class="rr_time_label">{{ section.settings.minutes_label }}</span>
+        </div>
+        <span class="rr_timer_separator">:</span>
+        <div class="rr_timer_block">
+          <span class="rr_time_digit" id="rr_secs_{{ section.id }}">00</span>
+          <span class="rr_time_label">{{ section.settings.seconds_label }}</span>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% if section.settings.show_timer %}
+  <script>
+    (function() {
+      var sectionId = {{ section.id | json }};
+      var countDownDate = new Date({{ section.settings.countdown_date | json }}).getTime();
+
+      var elContainer = document.getElementById("rr_timer_container_" + sectionId);
+      var elHours = document.getElementById("rr_hours_" + sectionId);
+      var elMins = document.getElementById("rr_mins_" + sectionId);
+      var elSecs = document.getElementById("rr_secs_" + sectionId);
+
+      if (!elContainer || !elHours || !elMins || !elSecs) return;
+
+      var timer = setInterval(function() {
+        var currentTime = new Date().getTime();
+        var distance = countDownDate - currentTime;
+
+        elContainer.classList.add("rr_timer_loaded");
+
+        if (distance < 0) {
+          clearInterval(timer);
+          elHours.textContent = "00";
+          elMins.textContent = "00";
+          elSecs.textContent = "00";
+          return;
+        }
+
+        var totalHours = Math.floor(distance / 3600000);
+        var minutes = Math.floor((distance % 3600000) / 60000);
+        var seconds = Math.floor((distance % 60000) / 1000);
+
+        elHours.textContent = totalHours < 10 ? "0" + totalHours : totalHours;
+        elMins.textContent = minutes < 10 ? "0" + minutes : minutes;
+        elSecs.textContent = seconds < 10 ? "0" + seconds : seconds;
+      }, 1000);
+    })();
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Countdown Bar",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "🌙 PROMOTION EID",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "default": "PRIX LE PLUS BAS DE L'ANNÉE",
+      "label": "Subtext"
+    },
+    {
+      "type": "header",
+      "content": "Countdown Timer"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_timer",
+      "default": true,
+      "label": "Show countdown timer"
+    },
+    {
+      "type": "text",
+      "id": "countdown_date",
+      "default": "2026-12-31T23:59:00",
+      "label": "Countdown end date",
+      "info": "Format: YYYY-MM-DDTHH:MM:SS (e.g. 2026-12-31T23:59:00)"
+    },
+    {
+      "type": "text",
+      "id": "hours_label",
+      "default": "Hrs",
+      "label": "Hours label"
+    },
+    {
+      "type": "text",
+      "id": "minutes_label",
+      "default": "Mins",
+      "label": "Minutes label"
+    },
+    {
+      "type": "text",
+      "id": "seconds_label",
+      "default": "Secs",
+      "label": "Seconds label"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "#000000",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#ffffff",
+      "label": "Text color"
+    },
+    {
+      "type": "header",
+      "content": "Font Sizes — Mobile"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "default": 15,
+      "unit": "px",
+      "label": "Heading size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "subtext_size_mobile",
+      "min": 8,
+      "max": 20,
+      "step": 1,
+      "default": 10,
+      "unit": "px",
+      "label": "Subtext size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "timer_size_mobile",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "default": 16,
+      "unit": "px",
+      "label": "Timer digit size (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "timer_label_size_mobile",
+      "min": 6,
+      "max": 16,
+      "step": 1,
+      "default": 8,
+      "unit": "px",
+      "label": "Timer label size (mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Font Sizes — Desktop"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "min": 14,
+      "max": 48,
+      "step": 1,
+      "default": 24,
+      "unit": "px",
+      "label": "Heading size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "subtext_size_desktop",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "default": 14,
+      "unit": "px",
+      "label": "Subtext size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "timer_size_desktop",
+      "min": 14,
+      "max": 48,
+      "step": 1,
+      "default": 24,
+      "unit": "px",
+      "label": "Timer digit size (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "timer_label_size_desktop",
+      "min": 8,
+      "max": 20,
+      "step": 1,
+      "default": 12,
+      "unit": "px",
+      "label": "Timer label size (desktop)"
+    },
+    {
+      "type": "header",
+      "content": "Visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_desktop",
+      "default": true,
+      "label": "Show on desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_mobile",
+      "default": true,
+      "label": "Show on mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown Bar"
+    }
+  ]
+}
+{% endschema %}
