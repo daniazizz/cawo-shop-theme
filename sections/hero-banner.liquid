@@ -30,12 +30,12 @@
     font-size: {{ section.settings.pretitle_size_mobile | divided_by: 10.0 }}vw;
     color: {{ section.settings.text_color }};
     letter-spacing: 0.15em;
-    margin-bottom: 1vw;
+    margin-bottom: {{ section.settings.gap_after_pretitle | divided_by: 10.0 }}vw;
     font-family: 'Monument Extended', sans-serif;
   }
   .hero-banner-{{ section.id }} .hero-banner__heading {
     font-size: {{ section.settings.heading_size_mobile | divided_by: 10.0 }}vw;
-    margin: 1vw 0 2vw;
+    margin: 0 0 {{ section.settings.gap_after_heading | divided_by: 10.0 }}vw;
     color: {{ section.settings.text_color }};
     line-height: 1.1;
     font-family: 'Monument Extended', sans-serif;
@@ -44,7 +44,7 @@
   .hero-banner-{{ section.id }} .hero-banner__subtitle {
     font-size: {{ section.settings.subtitle_size_mobile | divided_by: 10.0 }}vw;
     color: {{ section.settings.text_color }};
-    margin-bottom: 2.5vw;
+    margin-bottom: {{ section.settings.gap_after_subtitle | divided_by: 10.0 }}vw;
     font-family: 'Monument Extended', sans-serif;
   }
   .hero-banner-{{ section.id }} .hero-banner__button {
@@ -53,7 +53,7 @@
     color: {{ section.settings.button_text_color }};
     font-weight: 900;
     font-size: {{ section.settings.button_size_mobile | divided_by: 10.0 }}vw;
-    padding: 1.6vw 4.2vw;
+    padding: {{ section.settings.button_padding_y | divided_by: 10.0 }}vw {{ section.settings.button_padding_x | divided_by: 10.0 }}vw;
     text-decoration: none;
     transform: skew(-15deg);
     border: none;
@@ -289,6 +289,55 @@
       "step": 1,
       "default": 28,
       "label": "Button size (desktop)"
+    },
+    {
+      "type": "header",
+      "content": "Spacing (vw)"
+    },
+    {
+      "type": "range",
+      "id": "gap_after_pretitle",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": "Gap after pre-title"
+    },
+    {
+      "type": "range",
+      "id": "gap_after_heading",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 20,
+      "label": "Gap after heading"
+    },
+    {
+      "type": "range",
+      "id": "gap_after_subtitle",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 25,
+      "label": "Gap after subtitle"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_y",
+      "min": 5,
+      "max": 50,
+      "step": 1,
+      "default": 16,
+      "label": "Button padding (vertical)"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_x",
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 42,
+      "label": "Button padding (horizontal)"
     },
     {
       "type": "header",
