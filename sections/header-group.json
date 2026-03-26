@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_4LWq67": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
@@ -67,7 +68,7 @@
         "announcement_KEMCL8": {
           "type": "announcement",
           "settings": {
-            "text": "🌍 <strong>LA COMMUNAUTÉ CAWO : +2 000 ATHLÈTES</strong>",
+            "text": "🌍 <strong>LA COMMUNAUTÉ CAWO : +2 500 ATHLÈTES</strong>",
             "text_alignment": "center",
             "mobile_text_size": 12,
             "desktop_text_size": 20,
@@ -85,7 +86,7 @@
         "announcement_QKd4wt": {
           "type": "announcement",
           "settings": {
-            "text": "✈️ <strong>LIVRAISON OFFERTE DÈS 100 €</strong>",
+            "text": "✈️ <strong>LIVRAISON OFFERTE DÈS 2 ARTICLES</strong>",
             "text_alignment": "center",
             "mobile_text_size": 12,
             "desktop_text_size": 20,
@@ -107,7 +108,6 @@
         "announcement_KEMCL8",
         "announcement_QKd4wt"
       ],
-      "disabled": true,
       "settings": {
         "columns_desktop": 1,
         "columns_mobile": 1,
@@ -164,13 +164,13 @@
         "text_Ep9ejf": {
           "type": "text",
           "settings": {
-            "title": "-50% SUR TOUT"
+            "title": "JUSQU’À -30 % SUR UNE SÉLECTION"
           }
         },
         "text_3JRUTq": {
           "type": "text",
           "settings": {
-            "title": "LIVRAISON OFFERTE DES 3 ARTILCES"
+            "title": "LA REPRISE APRÈS LE RAMADAN"
           }
         }
       },

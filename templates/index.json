@@ -9,8 +9,29 @@
  */
 {
   "sections": {
+    "hero_banner_wzxjrb": {
+      "type": "hero-banner",
+      "name": "Hero Banner",
+      "settings": {
+        "image": "shopify://shop_images/Group_502_4.png",
+        "pretitle": "",
+        "heading": "<p>LA REPRISE APRÈS LE RAMADAN</p>",
+        "subtitle": "DU 24/03 JUSQU’AU 31/03",
+        "button_text": "PROFITER DE L'OFFRE ›",
+        "button_link": "shopify://collections/shop-all",
+        "text_color": "#ffffff",
+        "background_color": "#000000",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "text_scale": 5,
+        "spacing": 6,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
     "custom_liquid_MGhKd7": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
@@ -266,6 +287,7 @@
     }
   },
   "order": [
+    "hero_banner_wzxjrb",
     "custom_liquid_MGhKd7",
     "custom_liquid_FE7bW7",
     "featured_collection_weBFCH",
