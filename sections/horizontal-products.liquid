@@ -133,6 +133,57 @@
     font-size: 13px;
   }
 
+  .horizontal-products-wrapper-{{ section.id }} {
+    position: relative;
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.5);
+    background: rgba(0,0,0,0.35);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    padding: 0;
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn:hover {
+    background: rgba(0,0,0,0.55);
+    border-color: rgba(255,255,255,0.8);
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn--left {
+    left: 4px;
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn--right {
+    right: 4px;
+  }
+
+  .horizontal-products-wrapper-{{ section.id }} .chevron-btn[disabled] {
+    opacity: 0;
+    pointer-events: none;
+  }
+
   {% unless section.settings.show_on_desktop %}
     @media screen and (min-width: 750px) {
       .horizontal-section-{{ section.id }} {
@@ -153,6 +204,13 @@
       </div>
     {% endif %}
 
+    <div class="horizontal-products-wrapper-{{ section.id }}">
+      <button class="chevron-btn chevron-btn--left" data-direction="left" aria-label="Scroll left" disabled>
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="chevron-btn chevron-btn--right" data-direction="right" aria-label="Scroll right">
+        <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
+      </button>
     <div class="horizontal-products-{{ section.id }}">
       {%- if section.settings.collection != blank -%}
         {%- assign shown = 0 -%}
@@ -190,8 +248,35 @@
         {%- endfor -%}
       {%- endif -%}
     </div>
+    </div>
   </div>
 </div>
+
+<script>
+  (function() {
+    const wrapper = document.querySelector('.horizontal-products-wrapper-{{ section.id }}');
+    if (!wrapper) return;
+    const scroller = wrapper.querySelector('.horizontal-products-{{ section.id }}');
+    const leftBtn = wrapper.querySelector('.chevron-btn--left');
+    const rightBtn = wrapper.querySelector('.chevron-btn--right');
+    if (!scroller || !leftBtn || !rightBtn) return;
+
+    function updateButtons() {
+      leftBtn.disabled = scroller.scrollLeft <= 2;
+      rightBtn.disabled = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 2;
+    }
+
+    leftBtn.addEventListener('click', function() {
+      scroller.scrollBy({ left: -scroller.clientWidth * 0.7, behavior: 'smooth' });
+    });
+    rightBtn.addEventListener('click', function() {
+      scroller.scrollBy({ left: scroller.clientWidth * 0.7, behavior: 'smooth' });
+    });
+
+    scroller.addEventListener('scroll', updateButtons);
+    updateButtons();
+  })();
+</script>
 
 {% schema %}
 {
