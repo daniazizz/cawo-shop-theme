@@ -26,8 +26,6 @@
         "button_text_color": "#000000",
         "text_scale": 5,
         "spacing": 6,
-        "overlay_opacity": 20,
-        "vignette_strength": 0,
         "show_on_desktop": true,
         "show_on_mobile": true
       }
@@ -36,7 +34,7 @@
       "type": "hero-banner",
       "name": "Hero Banner",
       "settings": {
-        "image": "shopify://shop_images/21.png",
+        "image": "shopify://shop_images/Group_502_3.png",
         "pretitle": "",
         "heading": "<p>DÉCOUVREZ LES ÉQUIPEMENTS </p>",
         "subtitle": "",
@@ -48,8 +46,6 @@
         "button_text_color": "#000000",
         "text_scale": 5,
         "spacing": 8,
-        "overlay_opacity": 80,
-        "vignette_strength": 30,
         "show_on_desktop": true,
         "show_on_mobile": true
       }
