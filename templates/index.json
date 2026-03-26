@@ -11,6 +11,7 @@
   "sections": {
     "hero_banner_wzxjrb": {
       "type": "hero-banner",
+      "disabled": true,
       "name": "Hero Banner",
       "settings": {
         "image": "shopify://shop_images/Group_502_4.png",
@@ -25,6 +26,26 @@
         "button_text_color": "#000000",
         "text_scale": 5,
         "spacing": 6,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      }
+    },
+    "hero_banner_ziH4FC": {
+      "type": "hero-banner",
+      "name": "Hero Banner",
+      "settings": {
+        "image": "shopify://shop_images/21.png",
+        "pretitle": "",
+        "heading": "<p>DÉCOUVREZ LES ÉQUIPEMENTS </p>",
+        "subtitle": "",
+        "button_text": "VOIR LE CATALOGUE ›",
+        "button_link": "shopify://collections/shop-all",
+        "text_color": "#ffffff",
+        "background_color": "#000000",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "text_scale": 5,
+        "spacing": 8,
         "show_on_desktop": true,
         "show_on_mobile": true
       }
@@ -288,6 +309,7 @@
   },
   "order": [
     "hero_banner_wzxjrb",
+    "hero_banner_ziH4FC",
     "custom_liquid_MGhKd7",
     "custom_liquid_FE7bW7",
     "featured_collection_weBFCH",
