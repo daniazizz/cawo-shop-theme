@@ -25,22 +25,20 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, {{ section.settings.overlay_opacity | divided_by: 100.0 }});
+    background: rgba(0, 0, 0, {{ section.settings.overlay_opacity | times: 0.01 }});
     pointer-events: none;
     z-index: 1;
   }
-  {% if section.settings.enable_vignette %}
-    .hero-banner-{{ section.id }} .hero-banner__vignette {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      box-shadow: inset 0 0 {{ section.settings.vignette_strength }}vw rgba(0, 0, 0, 0.7);
-      pointer-events: none;
-      z-index: 2;
-    }
-  {% endif %}
+  .hero-banner-{{ section.id }} .hero-banner__vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 {{ section.settings.vignette_strength }}vw rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    z-index: 2;
+  }
   .hero-banner-{{ section.id }} .hero-banner__overlay {
     position: relative;
     z-index: 3;
@@ -115,9 +113,7 @@
   {% endif %}
 >
   <div class="hero-banner__darken"></div>
-  {% if section.settings.enable_vignette %}
-    <div class="hero-banner__vignette"></div>
-  {% endif %}
+  <div class="hero-banner__vignette"></div>
   <div class="hero-banner__overlay">
     {% if section.settings.pretitle != blank %}
       <div class="hero-banner__pretitle">{{ section.settings.pretitle }}</div>
@@ -246,20 +242,14 @@
       "info": "0 = no darkening, higher = darker overlay"
     },
     {
-      "type": "checkbox",
-      "id": "enable_vignette",
-      "default": false,
-      "label": "Enable vignette effect"
-    },
-    {
       "type": "range",
       "id": "vignette_strength",
-      "min": 5,
+      "min": 0,
       "max": 30,
       "step": 1,
-      "default": 15,
-      "label": "Vignette strength",
-      "info": "Size of the dark edge shadow"
+      "default": 0,
+      "label": "Vignette",
+      "info": "0 = off, higher = stronger dark edge shadow"
     },
     {
       "type": "header",
