@@ -11,12 +11,11 @@
   "sections": {
     "hero_banner_wzxjrb": {
       "type": "hero-banner",
-      "disabled": true,
       "name": "Hero Banner",
       "settings": {
         "image": "shopify://shop_images/Group_502_4.png",
         "pretitle": "",
-        "heading": "<p>LA REPRISE APRÈS LE RAMADAN</p>",
+        "heading": "<p>LA REPRISE APRÈS LE RAMADAN<br/>Jusqu'a -30%</p>",
         "subtitle": "DU 24/03 JUSQU’AU 31/03",
         "button_text": "PROFITER DE L'OFFRE ›",
         "button_link": "shopify://collections/shop-all",
@@ -32,6 +31,7 @@
     },
     "hero_banner_ziH4FC": {
       "type": "hero-banner",
+      "disabled": true,
       "name": "Hero Banner",
       "settings": {
         "image": "shopify://shop_images/Group_502_3.png",
