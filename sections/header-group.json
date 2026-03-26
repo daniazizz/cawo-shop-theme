@@ -178,6 +178,7 @@
         "text_Ep9ejf",
         "text_3JRUTq"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-sections--29008781345111__horizontal_ticker_tH6gT6-padding {margin-bottom: 10px;}"
       ],
@@ -199,6 +200,7 @@
         "desktop_image_height": 40,
         "mobile_reviews_width": 300,
         "desktop_reviews_width": 400,
+        "hide_on_collection": false,
         "hidden_products": "",
         "enable_specific_display": true,
         "displayed_products": "",
