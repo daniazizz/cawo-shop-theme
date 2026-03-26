@@ -161,6 +161,12 @@
     "horizontal_ticker_tH6gT6": {
       "type": "horizontal-ticker",
       "blocks": {
+        "text_U9gqXc": {
+          "type": "text",
+          "settings": {
+            "title": "24/03 -> 31/03"
+          }
+        },
         "text_Ep9ejf": {
           "type": "text",
           "settings": {
@@ -175,6 +181,7 @@
         }
       },
       "block_order": [
+        "text_U9gqXc",
         "text_Ep9ejf",
         "text_3JRUTq"
       ],
