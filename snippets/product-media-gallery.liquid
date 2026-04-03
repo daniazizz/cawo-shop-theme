@@ -82,6 +82,9 @@
       {% if section.settings.photo_badge_line1 != blank %}
         <span class="product-media__photo-badge-line1">{{ section.settings.photo_badge_line1 }}</span>
       {% endif %}
+      {% if section.settings.photo_badge_line1 != blank and section.settings.photo_badge_line2 != blank %}
+        <span class="product-media__photo-badge-separator"></span>
+      {% endif %}
       {% if section.settings.photo_badge_line2 != blank %}
         <span class="product-media__photo-badge-line2">{{ section.settings.photo_badge_line2 }}</span>
       {% endif %}

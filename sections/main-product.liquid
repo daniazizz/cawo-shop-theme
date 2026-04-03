@@ -33,40 +33,63 @@
     .product-media__photo-badge {
       position: relative;
       z-index: 2;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 0.4rem;
-      background: var(--badge-bg, #dd1d1d);
+      gap: 0.5rem;
+      background: var(--badge-bg, #1a1a1a);
       color: var(--badge-color, #fff);
       text-align: center;
-      padding: 0.5rem 1.2rem;
+      padding: 0.55rem 1.4rem;
       font-family: inherit;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      line-height: 1.2;
-      margin-bottom: -1.2rem;
-      border-radius: 0.4rem 0.4rem 0 0;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      margin: 0 auto -1rem;
+      border-radius: 50px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      white-space: nowrap;
+    }
+    media-gallery {
+      display: block;
+    }
+    media-gallery > .product-media__photo-badge {
+      display: flex;
+      width: fit-content;
     }
     .product-media__photo-badge-line1 {
-      font-size: 1.2rem;
-      font-weight: 900;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
     }
     .product-media__photo-badge-line2 {
-      font-size: 1.0rem;
+      font-size: 0.95rem;
       font-weight: 600;
-      opacity: 0.9;
+      opacity: 0.85;
+      letter-spacing: 0.06em;
+    }
+    .product-media__photo-badge-separator {
+      width: 1px;
+      height: 1.2rem;
+      background: rgba(255,255,255,0.3);
+      flex-shrink: 0;
     }
     @media screen and (min-width: 750px) {
       .product-media__photo-badge {
-        padding: 0.6rem 1.6rem;
-        margin-bottom: -1.4rem;
+        padding: 0.65rem 2rem;
+        margin-bottom: -1.2rem;
+        gap: 0.7rem;
       }
       .product-media__photo-badge-line1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
       }
       .product-media__photo-badge-line2 {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
+      }
+      .product-media__photo-badge-separator {
+        height: 1.4rem;
       }
     }
   {%- endstyle -%}
