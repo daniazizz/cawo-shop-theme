@@ -77,6 +77,16 @@
   data-desktop-layout="{{ section.settings.gallery_layout }}"
   data-disable-prepend="{{ disable_prepend }}"
 >
+  {% if section.settings.photo_badge_enabled %}
+    <div class="product-media__photo-badge" style="--badge-bg: {{ section.settings.photo_badge_bg }}; --badge-color: {{ section.settings.photo_badge_text_color }};">
+      {% if section.settings.photo_badge_line1 != blank %}
+        <span class="product-media__photo-badge-line1">{{ section.settings.photo_badge_line1 }}</span>
+      {% endif %}
+      {% if section.settings.photo_badge_line2 != blank %}
+        <span class="product-media__photo-badge-line2">{{ section.settings.photo_badge_line2 }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
   <slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" class="slider-mobile-gutter" data-pause-videos='true' data-update-active="true">
     {%- unless is_duplicate -%}
