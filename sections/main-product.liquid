@@ -29,6 +29,49 @@
         --slide-inner-percentage-width: {{ section.settings.mobile_slides_inner_width }}%;
       }
     }
+
+    .product-media__photo-badge {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--badge-bg, #dd1d1d);
+      color: var(--badge-color, #fff);
+      text-align: center;
+      padding: 0.6rem 1rem;
+      font-family: inherit;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      line-height: 1.2;
+      pointer-events: none;
+    }
+    .product-media__photo-badge--top {
+      top: 0;
+    }
+    .product-media__photo-badge--bottom {
+      bottom: 0;
+    }
+    .product-media__photo-badge-line1 {
+      font-size: 1.4rem;
+      font-weight: 900;
+    }
+    .product-media__photo-badge-line2 {
+      font-size: 1rem;
+      font-weight: 600;
+      opacity: 0.9;
+    }
+    @media screen and (min-width: 750px) {
+      .product-media__photo-badge-line1 {
+        font-size: 1.6rem;
+      }
+      .product-media__photo-badge-line2 {
+        font-size: 1.2rem;
+      }
+    }
   {%- endstyle -%}
 
   {% if section.settings.image_zoom == 'hover' %}
@@ -8930,6 +8973,56 @@
       ],
       "default": "medium",
       "label": "Trust badge size"
+    },
+    {
+      "type": "header",
+      "content": "Photo badge"
+    },
+    {
+      "type": "checkbox",
+      "id": "photo_badge_enabled",
+      "default": false,
+      "label": "Show photo badge"
+    },
+    {
+      "type": "text",
+      "id": "photo_badge_line1",
+      "default": "#1 SHORT CACHE AWRA",
+      "label": "Badge line 1"
+    },
+    {
+      "type": "text",
+      "id": "photo_badge_line2",
+      "default": "PLUS VENDU EN FRANCE/BELGIQUE",
+      "label": "Badge line 2"
+    },
+    {
+      "type": "color",
+      "id": "photo_badge_bg",
+      "default": "#dd1d1d",
+      "label": "Badge background color"
+    },
+    {
+      "type": "color",
+      "id": "photo_badge_text_color",
+      "default": "#ffffff",
+      "label": "Badge text color"
+    },
+    {
+      "type": "select",
+      "id": "photo_badge_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top",
+      "label": "Badge position"
     },
     {
       "type": "header",

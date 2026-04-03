@@ -81,6 +81,16 @@
       >
     </div>
   {% endif %}
+  {% if section.settings.photo_badge_enabled and position == 1 %}
+    <div class="product-media__photo-badge product-media__photo-badge--{{ section.settings.photo_badge_position }}" style="--badge-bg: {{ section.settings.photo_badge_bg }}; --badge-color: {{ section.settings.photo_badge_text_color }};">
+      {% if section.settings.photo_badge_line1 != blank %}
+        <span class="product-media__photo-badge-line1">{{ section.settings.photo_badge_line1 }}</span>
+      {% endif %}
+      {% if section.settings.photo_badge_line2 != blank %}
+        <span class="product-media__photo-badge-line2">{{ section.settings.photo_badge_line2 }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
   <noscript>
     {%- if has_video_modal or media.media_type == 'external_video' -%}
       <span class="product__media-icon motion-reduce quick-add-hidden">{% render 'icon-play' %}</span>
